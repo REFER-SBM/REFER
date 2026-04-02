@@ -1,0 +1,38 @@
+Vertex 0:      420.318490,    -370.732941 D:   0
+Vertex 1:     1274.812902,    -672.876127 D:   2
+Vertex 2:     1086.513514,    -145.637838 D:   1
+Vertex 3:      645.096026,    -830.155629 D:   0
+Vertex 4:      823.482356,    -404.772844 D:   3
+Vertex 5:     1515.762155,    -192.464962 D:   5
+Vertex 6:      877.239664,    -766.843728 D:   8
+Vertex 7:      763.000000,    -603.000000 D:   8
+Vertex 8:      986.889049,    -536.278098 D:   9
+Vertex 9:     1079.017483,    -720.534965 D:  10
+Vertex 10:     1146.540424,    -544.180274 D:  11
+Vertex 11:      932.006160,    -604.495630 D:  13
+Line 0: V3 to V0
+Line 1: V0 to V2
+Line 2: V1 to V2
+Line 3: V3 to V4
+Line 4: V0 to V4
+Line 5: V2 to V5
+Line 6: V1 to V5
+Line 7: V4 to V5
+Line 8: V6 to V7
+Line 9: V7 to V8
+Line 10: V9 to V8
+Line 11: V8 to V10
+Line 12: V9 to V10
+Line 13: V6 to V11
+Line 14: V7 to V11
+Line 15: V11 to V10
+Line 16: V3 to V6
+Line 17: V9 to V1
+Face 0: 3 L3 L4 L0
+Face 1: 4 L5 L1 L4 L7
+Face 2: 3 L6 L2 L5
+Face 3: 3 L11 L10 L12
+Face 4: 8 L8 L16 L0 L1 L2 L17 L10 L9
+Face 5: 8 L13 L15 L12 L17 L6 L7 L3 L16
+Face 6: 3 L13 L8 L14
+Face 7: 4 L14 L9 L11 L15

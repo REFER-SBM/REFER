@@ -1,0 +1,39 @@
+Comment from Yankee, p179, sketch D
+Vertex 0: 307.733346,0.000000 D:0 
+Vertex 1: 248.877033,350.051206 D:0 
+Vertex 2: 560.611618,123.180985 D:1 
+Vertex 3: 825.779408,531.307309 D:3 
+Vertex 4: 583.980756,690.842404 D:4 
+Vertex 5: 439.755162,624.479005 D:5 
+Vertex 6: 441.469979,872.727273 D:7 
+Vertex 7: 588.267797,863.581584 D:8 
+Vertex 8: 829.780646,701.188463 D:10 
+Vertex 9: 252.020864,540.624479 D:12 
+Vertex 10: 254.021482,778.298045 D:12 
+Vertex 11: 130.154571,468.030581 D:14 
+Vertex 12: 130.154571,578.807726 D:15 
+Vertex 13: 1.714817,512.501488 D:16 
+Vertex 14: 0.000000,370.171720 D:17 
+Vertex 15: 219.103573,521.016149 D:20  Intercept 14
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V0
+Line 3: V2 to V3
+Line 4: V3 to V4
+Line 5: V4 to V5
+Line 6: V5 to V1
+Line 7: V5 to V6
+Line 8: V6 to V7
+Line 9: V7 to V4
+Line 10: V7 to V8
+Line 11: V8 to V3
+Line 12: V9 to V10
+Line 13: V10 to V6
+Line 14: V9 to V11
+Line 15: V11 to V12
+Line 16: V12 to V13
+Line 17: V13 to V14
+Line 18: V14 to V1
+Line 19: V14 to V0
+Line 20: V12 to V15
+End

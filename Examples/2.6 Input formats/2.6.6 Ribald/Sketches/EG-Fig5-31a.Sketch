@@ -1,0 +1,62 @@
+Comment from Yankee, p165, sketch A
+Vertex 0: 585.827837,131.765601 D:0 
+Vertex 1: 960.000000,659.416540 D:0 
+Vertex 2: 866.646372,713.534585 D:1 
+Vertex 3: 866.646372,767.652630 D:2 
+Vertex 4: 960.000000,713.534585 D:3 
+Vertex 5: 819.780145,632.357517 D:5 
+Vertex 6: 538.961610,158.824624 D:6 
+Vertex 7: 308.063589,27.059022 D:7 
+Vertex 8: 354.929816,0.000000 D:8 
+Vertex 9: 609.260950,497.062405 D:10 
+Vertex 10: 656.127177,578.239472 D:11 
+Vertex 11: 585.827837,618.828006 D:12 
+Vertex 12: 632.315238,754.123119 D:13 
+Vertex 13: 679.181465,835.300186 D:14 
+Vertex 14: 585.827837,889.418231 D:15 
+Vertex 15: 585.827837,943.536276 D:16 
+Vertex 16: 679.560291,889.418231 D:17 
+Vertex 17: 257.764248,321.178759 D:20 
+Vertex 18: 46.866227,199.413157 D:20 
+Vertex 19: 0.000000,226.472180 D:21 
+Vertex 20: 210.898021,348.237781 D:22 
+Vertex 21: 538.961610,537.650939 D:24 
+Vertex 22: 237.764248,284.119736 D:26 
+Vertex 23: 491.244474,500.917193 D:28  Intercept 24
+Vertex 24: 0.000000,605.298495 D:29 
+Vertex 25: 237.764248,309.631415 D:31  Intercept 20
+Vertex 26: 731.561365,689.658977 D:32  Intercept 13
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V1
+Line 5: V2 to V5
+Line 6: V0 to V6
+Line 7: V6 to V7
+Line 8: V7 to V8
+Line 9: V8 to V0
+Line 10: V6 to V9
+Line 11: V9 to V10
+Line 12: V10 to V11
+Line 13: V5 to V12
+Line 14: V12 to V13
+Line 15: V13 to V14
+Line 16: V14 to V15
+Line 17: V15 to V16
+Line 18: V16 to V13
+Line 19: V14 to V20
+Line 20: V17 to V18
+Line 21: V18 to V19
+Line 22: V19 to V20
+Line 23: V20 to V17
+Line 24: V17 to V21
+Line 25: V21 to V11
+Line 26: V9 to V22
+Line 27: V22 to V7
+Line 28: V10 to V23
+Line 29: V19 to V24
+Line 30: V24 to V15
+Line 31: V22 to V25
+Line 32: V3 to V26
+End

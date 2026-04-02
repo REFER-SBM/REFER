@@ -1,0 +1,8 @@
+Please note there were minor errors in two of the sketches originally posted. If you have the earlier data set you should make the following changes:
+
+Replace Aerial100 by Aerial101
+(some of the lines in Aerial100 cross when they should not;
+ vertices 2 and 12 have been moved up slightly to correct this)
+
+Replace Grim200 by Grim201
+(vertex 14 intercepts line 12, not line 13; this has been corrected)

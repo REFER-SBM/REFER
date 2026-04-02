@@ -1,0 +1,32 @@
+Vertex 0: 92.550253,224.728183
+Vertex 1: 62.242785,194.421400
+Vertex 2: 62.242785,154.427715
+Vertex 3: 92.550253,184.734498
+Vertex 4: 284.975739,177.260100
+Vertex 5: 284.975739,57.313315
+Vertex 6: 246.792908,241.889483
+Vertex 7: 246.792908,121.942699
+Vertex 8: 182.163867,57.313658
+Vertex 9: 349.604437,121.942699
+Vertex 10: 182.164210,177.260100
+Vertex 11: 349.004703,241.889483
+Edge 0: V0 to V1
+Edge 1: V1 to V2
+Edge 2: V0 to V3
+Edge 3: V4 to V5
+Edge 4: V6 to V7
+Edge 5: V5 to V8
+Edge 6: V7 to V3
+Edge 7: V9 to V7
+Edge 8: V6 to V0
+Edge 9: V10 to V1
+Edge 10: V10 to V4
+Edge 11: V4 to V11
+Edge 12: V8 to V7
+Edge 13: V9 to V5
+Edge 14: V2 to V3
+Edge 15: V2 to V8
+Edge 16: V8 to V10
+Edge 17: V9 to V11
+Edge 18: V11 to V6
+Finish

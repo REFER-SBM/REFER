@@ -1,0 +1,66 @@
+Comment Huffman's Combs
+Vertex 0: 221.538462,0.000000 D:0 
+Vertex 1: 960.000000,0.000000 D:0 
+Vertex 2: 886.153846,36.923077 D:1 
+Vertex 3: 147.692308,36.923077 D:2 
+Vertex 4: 960.000000,295.384615 D:4 
+Vertex 5: 886.153846,332.307692 D:5 
+Vertex 6: 590.769231,147.692308 D:7 
+Vertex 7: 590.769231,369.230769 D:7 
+Vertex 8: 516.923077,406.153846 D:8 
+Vertex 9: 516.923077,184.615385 D:9 
+Vertex 10: 590.769231,332.307692 D:11  Intercept 7
+Vertex 11: 664.615385,406.153846 D:12 
+Vertex 12: 664.615385,332.307692 D:13  Intercept 11
+Vertex 13: 664.615385,369.230769 D:14  Intercept 13
+Vertex 14: 147.692308,332.307692 D:15 
+Vertex 15: 332.307692,332.307692 D:16 
+Vertex 16: 332.307692,110.769231 D:17 
+Vertex 17: 443.076923,110.769231 D:18 
+Vertex 18: 406.153846,295.384615 D:19 
+Vertex 19: 406.153846,110.769231 D:20  Intercept 18
+Vertex 20: 406.153846,184.615385 D:21  Intercept 20
+Vertex 21: 406.153846,147.692308 D:22  Intercept 20
+Vertex 22: 443.076923,147.692308 D:23  Intercept 22
+Vertex 23: 73.846154,147.692308 D:24 
+Vertex 24: 0.000000,184.615385 D:24 
+Vertex 25: 147.692308,147.692308 D:25  Intercept 15
+Vertex 26: 147.692308,184.615385 D:26  Intercept 15
+Vertex 27: 0.000000,480.000000 D:27 
+Vertex 28: 738.461538,480.000000 D:28 
+Vertex 29: 812.307692,443.076923 D:29 
+Vertex 30: 738.461538,332.307692 D:30  Intercept 11
+Vertex 31: 812.307692,332.307692 D:31  Intercept 11
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V0
+Line 4: V1 to V4
+Line 5: V4 to V5
+Line 6: V5 to V2
+Line 7: V6 to V7
+Line 8: V7 to V8
+Line 9: V8 to V9
+Line 10: V9 to V6
+Line 11: V5 to V10
+Line 12: V8 to V11
+Line 13: V11 to V12
+Line 14: V7 to V13
+Line 15: V3 to V14
+Line 16: V14 to V15
+Line 17: V15 to V16
+Line 18: V16 to V17
+Line 19: V15 to V18
+Line 20: V18 to V19
+Line 21: V9 to V20
+Line 22: V6 to V21
+Line 23: V17 to V22
+Line 24: V23 to V24
+Line 25: V23 to V25
+Line 26: V24 to V26
+Line 27: V24 to V27
+Line 28: V27 to V28
+Line 29: V28 to V29
+Line 30: V28 to V30
+Line 31: V29 to V31
+End

@@ -1,0 +1,41 @@
+Vertex 0: 32.150000,540.700000
+Vertex 1: 32.150000,178.120000
+Vertex 2: 408.030000,41.320000
+Vertex 3: 648.820000,282.100000
+Vertex 4: 648.820000,644.670000
+Vertex 5: 554.850000,678.880000
+Vertex 6: 272.940000,781.480000
+Vertex 7: 272.940000,418.910000
+Vertex 8: 408.030000,403.890000
+Vertex 9: 366.910000,747.280000
+Vertex 10: 675.240000,799.270000
+Vertex 11: 487.300000,867.670000
+Vertex 12: 554.850000,497.600000
+Vertex 13: 366.910000,566.000000
+Vertex 14: 675.240000,617.990000
+Vertex 15: 487.300000,686.400000
+Edge 0: V0 to V1
+Edge 1: V1 to V2
+Edge 2: V2 to V3
+Edge 3: V3 to V4
+Edge 4: V4 to V5
+Edge 5: V6 to V0
+Edge 6: V1 to V7
+Edge 7: V7 to V6
+Edge 8: V7 to V3
+Edge 9: V4 to V8
+Edge 10: V2 to V8
+Edge 11: V0 to V8
+Edge 12: V9 to V6
+Edge 13: V5 to V10
+Edge 14: V10 to V11
+Edge 15: V11 to V9
+Edge 16: V5 to V12
+Edge 17: V9 to V13
+Edge 18: V10 to V14
+Edge 19: V11 to V15
+Edge 20: V12 to V13
+Edge 21: V12 to V14
+Edge 22: V13 to V15
+Edge 23: V14 to V15
+Finish

@@ -1,0 +1,19 @@
+Vertex 0: 0.000000,751.547421
+Vertex 1: 6.389351,201.530782
+Vertex 2: 447.254576,0.000000
+Vertex 3: 875.074875,234.808652
+Vertex 4: 863.627288,769.384359
+Vertex 5: 433.144759,960.000000
+Edge 0: V0 to V1
+Edge 1: V1 to V2
+Edge 2: V2 to V3
+Edge 3: V3 to V4
+Edge 4: V4 to V5
+Edge 5: V5 to V0
+Edge 6: V1 to V3
+Edge 7: V3 to V5
+Edge 8: V5 to V1
+Edge 9: V0 to V2
+Edge 10: V2 to V4
+Edge 11: V4 to V0
+Finish

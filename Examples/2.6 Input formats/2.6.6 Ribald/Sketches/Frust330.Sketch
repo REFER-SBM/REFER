@@ -1,0 +1,12 @@
+Vertex 0: 688.351648,0.000000 D:0 
+Vertex 1: 192.527473,5.274725 D:0 
+Vertex 2: 0.000000,535.384615 D:1 
+Vertex 3: 429.890110,960.000000 D:2 
+Vertex 4: 836.043956,551.208791 D:3 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V0
+Line 5: V2 to V4
+End

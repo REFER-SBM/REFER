@@ -1,0 +1,141 @@
+Vertex 0:       93.209485,     786.330170 D:   0
+Vertex 1:      170.485996,     744.044060 D:   0
+Vertex 2:      218.323845,     786.330170 D:   1
+Vertex 3:      548.544231,     605.631840 D:   2
+Vertex 4:        0.776012,     704.623890 D:   3
+Vertex 5:       78.052530,     662.337780 D:   4
+Vertex 6:       30.214689,     620.051660 D:   5
+Vertex 7:      360.435081,     439.353330 D:   6
+Vertex 8:        0.776012,     616.374610 D:   7
+Vertex 9:       93.209485,     698.080890 D:   7
+Vertex 10:       78.052530,     574.088500 D:   8
+Vertex 11:       30.214689,     531.802380 D:   9
+Vertex 12:      505.788534,     540.778710 D:  10
+Vertex 13:      548.544231,     517.382570 D:  10
+Vertex 14:      170.485996,     655.794770 D:  11
+Vertex 15:      218.323845,     698.080890 D:  11
+Vertex 16:      360.435081,     351.104050 D:  13
+Vertex 17:      505.788534,     450.078070 D:  22
+Vertex 18:      548.544231,     426.681930 D:  23
+Vertex 19:      548.544231,     222.080180 D:  24
+Vertex 20:      420.277128,     547.470790 D:  25
+Vertex 21:      420.277128,     450.688320 D:  25
+Vertex 22:      319.300490,     642.825940 D:  26
+Vertex 23:      463.032831,     427.292170 D:  27
+Vertex 24:      463.032831,     268.872470 D:  28
+Vertex 25:      131.191334,     476.547430 D:  30
+Vertex 26:      232.167979,     381.192280 D:  31
+Vertex 27:      232.167979,     284.409810 D:  31
+Vertex 28:      274.923675,     261.013670 D:  32
+Vertex 29:      274.923675,     102.593950 D:  33
+Vertex 30:      360.435081,     260.403420 D:  34
+Vertex 31:      360.435081,      55.801670 D:  34
+Vertex 32:      317.679378,     283.799560 D:  35
+Vertex 33:      317.679378,     374.500200 D:  36
+Vertex 34:      426.481818,     394.983020 D:  42
+Vertex 35:      383.726115,     418.379160 D:  43
+Vertex 36:      424.034595,     234.400090 D:  44
+Vertex 37:      509.545994,     187.607810 D:  45
+Vertex 38:      369.895853,     186.544320 D:  47
+Vertex 39:      455.407252,     187.979890 D:  48
+Vertex 40:      369.895853,     234.772180 D:  49
+Vertex 41:      302.996178,     347.018180 D:  51
+Vertex 42:      345.751875,     323.622040 D:  51
+Vertex 43:      379.912904,     448.707530 D:  53
+Vertex 44:      337.157208,     472.103670 D:  54
+Vertex 45:      179.029175,     518.833550 D:  60
+Vertex 46:      101.752657,     561.119660 D:  61
+Vertex 47:      194.186124,     642.825940 D:  62
+Vertex 48:      271.462642,     600.539830 D:  63
+Vertex 49:      194.186124,     602.725740 D:  65
+Vertex 50:      101.752657,     521.019460 D:  66
+Vertex 51:      271.462642,     560.439620 D:  67
+Vertex 52:      179.029175,     478.733340 D:  68
+Vertex 53:      319.300490,     602.725740 D:  69
+Vertex 54:      131.191334,     436.447230 D:  73
+Vertex 55:      455.407252,     139.752030 D:  81
+Line 0: V1 to V0
+Line 1: V2 to V1
+Line 2: V3 to V2
+Line 3: V0 to V4
+Line 4: V5 to V4
+Line 5: V5 to V6
+Line 6: V7 to V6
+Line 7: V9 to V8
+Line 8: V10 to V8
+Line 9: V10 to V11
+Line 10: V13 to V12
+Line 11: V15 to V14
+Line 12: V14 to V9
+Line 13: V13 to V16
+Line 14: V15 to V2
+Line 15: V14 to V1
+Line 16: V9 to V0
+Line 17: V8 to V4
+Line 18: V10 to V5
+Line 19: V11 to V6
+Line 20: V16 to V7
+Line 21: V13 to V3
+Line 22: V17 to V12
+Line 23: V18 to V17
+Line 24: V19 to V18
+Line 25: V21 to V20
+Line 26: V22 to V15
+Line 27: V23 to V21
+Line 28: V24 to V23
+Line 29: V19 to V24
+Line 30: V25 to V11
+Line 31: V27 to V26
+Line 32: V28 to V27
+Line 33: V29 to V28
+Line 34: V31 to V30
+Line 35: V30 to V32
+Line 36: V32 to V33
+Line 37: V16 to V33
+Line 38: V31 to V29
+Line 39: V32 to V17
+Line 40: V30 to V18
+Line 41: V33 to V12
+Line 42: V34 to V23
+Line 43: V35 to V21
+Line 44: V36 to V24
+Line 45: V37 to V19
+Line 46: V37 to V36
+Line 47: V29 to V38
+Line 48: V37 to V39
+Line 49: V40 to V36
+Line 50: V40 to V39
+Line 51: V42 to V41
+Line 52: V34 to V35
+Line 53: V43 to V34
+Line 54: V44 to V43
+Line 55: V35 to V44
+Line 56: V27 to V41
+Line 57: V28 to V42
+Line 58: V43 to V42
+Line 59: V41 to V44
+Line 60: V45 to V25
+Line 61: V45 to V46
+Line 62: V47 to V46
+Line 63: V22 to V48
+Line 64: V48 to V47
+Line 65: V49 to V47
+Line 66: V49 to V50
+Line 67: V51 to V49
+Line 68: V52 to V50
+Line 69: V53 to V51
+Line 70: V48 to V51
+Line 71: V50 to V46
+Line 72: V52 to V45
+Line 73: V52 to V54
+Line 74: V53 to V22
+Line 75: V20 to V53
+Line 76: V54 to V25
+Line 77: V26 to V54
+Line 78: V44 to V20
+Line 79: V26 to V44
+Line 80: V38 to V40
+Line 81: V55 to V39
+Line 82: V31 to V55
+Line 83: V55 to V38
+Line 84: V7 to V3

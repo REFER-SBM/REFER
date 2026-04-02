@@ -1,0 +1,43 @@
+Comment from Yankee, p45
+Vertex 0: 166.383257,0.000000 D:0 
+Vertex 1: 641.988228,274.689339 D:0 
+Vertex 2: 641.988228,588.620013 D:1 
+Vertex 3: 543.884892,872.727273 D:2 
+Vertex 4: 0.000000,558.796599 D:3 
+Vertex 5: 0.000000,166.383257 D:4 
+Vertex 6: 55.722695,110.660562 D:5 
+Vertex 7: 110.660562,55.722695 D:6 
+Vertex 8: 564.290386,317.069980 D:7 
+Vertex 9: 485.807717,359.450621 D:8 
+Vertex 10: 408.109876,401.831262 D:10 
+Vertex 11: 609.025507,369.653368 D:12 
+Vertex 12: 576.847613,463.832570 D:14 
+Vertex 13: 543.884892,558.796599 D:14 
+Vertex 14: 110.660562,142.440315 D:22  Intercept 8
+Vertex 15: 609.025507,526.618705 D:18 
+Vertex 16: 576.847613,620.797907 D:19 
+Vertex 17: 576.847613,508.018766 D:21  Intercept 19
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V6
+Line 6: V0 to V7
+Line 7: V7 to V8
+Line 8: V6 to V9
+Line 9: V1 to V8
+Line 10: V9 to V10
+Line 11: V10 to V5
+Line 12: V8 to V11
+Line 13: V1 to V11
+Line 14: V12 to V13
+Line 15: V10 to V13
+Line 16: V9 to V12
+Line 17: V13 to V3
+Line 18: V11 to V15
+Line 19: V12 to V16
+Line 20: V16 to V15
+Line 21: V15 to V17
+Line 22: V7 to V14
+End

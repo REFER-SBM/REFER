@@ -1,0 +1,62 @@
+Comment Pickup and Parker p52
+Vertex 0: 0.000000,308.384195 D:0 
+Vertex 1: 0.000000,668.165757 D:0 
+Vertex 2: 338.194668,863.475747 D:1 
+Vertex 3: 338.194668,781.239961 D:2 
+Vertex 4: 70.928365,349.502088 D:3 
+Vertex 5: 605.460970,41.117893 D:5 
+Vertex 6: 534.532605,0.000000 D:6 
+Vertex 7: 872.727273,472.855766 D:8 
+Vertex 8: 872.727273,555.091552 D:9 
+Vertex 9: 141.946901,308.529856 D:12  Intercept 5
+Vertex 10: 409.213203,740.267729 D:12  Intercept 8
+Vertex 11: 534.442434,82.090125 D:13  Intercept 5
+Vertex 12: 801.708737,513.827998 D:13  Intercept 8
+Vertex 13: 534.532605,359.781561 D:14 
+Vertex 14: 268.514727,512.985575 D:16  Intercept 12
+Vertex 15: 240.539672,354.641825 D:17 
+Vertex 16: 436.877610,241.567620 D:17 
+Vertex 17: 436.877610,344.362351 D:18 
+Vertex 18: 240.539672,457.436556 D:19 
+Vertex 19: 365.949245,303.244459 D:21 
+Vertex 20: 365.949245,282.416416 D:22  Intercept 17
+Vertex 21: 240.539672,375.469867 D:23  Intercept 20
+Vertex 22: 471.827819,601.349181 D:24 
+Vertex 23: 561.259235,549.951815 D:24 
+Vertex 24: 471.827819,498.554449 D:25 
+Vertex 25: 382.396402,549.951815 D:26 
+Vertex 26: 471.827819,580.790235 D:28 
+Vertex 27: 453.941535,591.069708 D:29  Intercept 27
+Vertex 28: 489.714102,591.069708 D:30  Intercept 24
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V0
+Line 5: V4 to V5
+Line 6: V5 to V6
+Line 7: V6 to V0
+Line 8: V3 to V7
+Line 9: V7 to V8
+Line 10: V8 to V2
+Line 11: V5 to V7
+Line 12: V9 to V10
+Line 13: V11 to V12
+Line 14: V11 to V13
+Line 15: V13 to V12
+Line 16: V13 to V14
+Line 17: V15 to V16
+Line 18: V16 to V17
+Line 19: V17 to V18
+Line 20: V18 to V15
+Line 21: V17 to V19
+Line 22: V19 to V20
+Line 23: V19 to V21
+Line 24: V22 to V23
+Line 25: V23 to V24
+Line 26: V24 to V25
+Line 27: V25 to V22
+Line 28: V24 to V26
+Line 29: V26 to V27
+Line 30: V26 to V28
+End

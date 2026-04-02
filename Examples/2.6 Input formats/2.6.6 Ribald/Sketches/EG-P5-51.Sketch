@@ -1,0 +1,30 @@
+Comment from Yankee, p180
+Vertex 0: 0.000000,200.298063 D:0 
+Vertex 1: 0.000000,658.122206 D:0 
+Vertex 2: 371.982116,872.727273 D:1 
+Vertex 3: 371.982116,786.885246 D:2 
+Vertex 4: 297.585693,743.964232 D:3 
+Vertex 5: 297.585693,371.982116 D:4 
+Vertex 6: 346.801788,0.000000 D:6 
+Vertex 7: 842.396423,286.140089 D:7 
+Vertex 8: 842.396423,743.964232 D:8 
+Vertex 9: 693.603577,829.806259 D:9 
+Vertex 10: 693.603577,543.666170 D:11 
+Vertex 11: 644.273044,171.750148 D:14  Intercept 7
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V0
+Line 6: V0 to V6
+Line 7: V6 to V7
+Line 8: V7 to V8
+Line 9: V8 to V9
+Line 10: V9 to V2
+Line 11: V9 to V10
+Line 12: V10 to V3
+Line 13: V10 to V7
+Line 14: V5 to V11
+Line 15: V4 to V11
+End

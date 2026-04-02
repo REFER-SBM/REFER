@@ -1,0 +1,54 @@
+Comment from Lipson and Shpitalni, Figure 11b
+Vertex 0: 0.000000,296.541406 D:0 
+Vertex 1: 0.000000,507.753234 D:0 
+Vertex 2: 173.193699,628.143976 D:1 
+Vertex 3: 173.193699,416.932148 D:2 
+Vertex 4: 250.919652,383.983103 D:4 
+Vertex 5: 250.919652,468.467834 D:5 
+Vertex 6: 328.645604,435.518789 D:6 
+Vertex 7: 328.645604,351.034058 D:7 
+Vertex 8: 406.371557,318.085013 D:8 
+Vertex 9: 406.371557,402.569744 D:9 
+Vertex 10: 484.097509,369.620699 D:10 
+Vertex 11: 484.097509,285.135968 D:11 
+Vertex 12: 872.727273,120.390742 D:12 
+Vertex 13: 872.727273,331.602570 D:13 
+Vertex 14: 310.903811,164.745226 D:15 
+Vertex 15: 388.629763,131.796181 D:16 
+Vertex 16: 466.355716,98.847135 D:16 
+Vertex 17: 544.081669,65.898090 D:17 
+Vertex 18: 699.533574,0.000000 D:17 
+Vertex 19: 310.903811,249.229957 D:23 
+Vertex 20: 362.481729,227.365405 D:25  Intercept 20
+Vertex 21: 466.355716,183.331867 D:26 
+Vertex 22: 517.933634,161.467314 D:28  Intercept 22
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V0
+Line 4: V3 to V4
+Line 5: V4 to V5
+Line 6: V5 to V6
+Line 7: V6 to V7
+Line 8: V7 to V8
+Line 9: V8 to V9
+Line 10: V9 to V10
+Line 11: V10 to V11
+Line 12: V11 to V12
+Line 13: V12 to V13
+Line 14: V13 to V2
+Line 15: V0 to V14
+Line 16: V15 to V16
+Line 17: V17 to V18
+Line 18: V18 to V12
+Line 19: V14 to V4
+Line 20: V15 to V7
+Line 21: V16 to V8
+Line 22: V17 to V11
+Line 23: V14 to V19
+Line 24: V5 to V19
+Line 25: V19 to V20
+Line 26: V16 to V21
+Line 27: V9 to V21
+Line 28: V21 to V22
+End

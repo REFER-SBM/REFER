@@ -1,0 +1,56 @@
+Comment Grimstead's Bracket, from PhD Thesis
+Vertex 0: 0.000000,247.045156 D:0 
+Vertex 1: 17.487776,563.808290 D:0 
+Vertex 2: 343.880690,730.113132 D:1 
+Vertex 3: 332.841259,572.238232 D:2 
+Vertex 4: 234.903802,522.336211 D:3 
+Vertex 5: 154.362425,325.696634 D:4 
+Vertex 6: 460.442039,683.019538 D:6 
+Vertex 7: 449.402608,525.144637 D:7 
+Vertex 8: 351.465150,475.242616 D:8 
+Vertex 9: 270.923773,278.603040 D:9 
+Vertex 10: 611.458286,0.000000 D:10 
+Vertex 11: 193.742561,239.277300 D:14 
+Vertex 12: 572.078150,86.419334 D:15 
+Vertex 13: 594.228505,403.182469 D:16 
+Vertex 14: 379.950128,489.756552 D:17  Intercept 12
+Vertex 15: 843.438652,530.161571 D:18 
+Vertex 16: 832.399220,372.286670 D:19 
+Vertex 17: 734.461764,322.384650 D:20 
+Vertex 18: 649.259363,125.745073 D:21 
+Vertex 19: 960.000000,483.066422 D:23 
+Vertex 20: 948.960569,325.193076 D:24 
+Vertex 21: 851.023112,275.291054 D:25 
+Vertex 22: 765.820711,78.651479 D:26 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V0
+Line 6: V6 to V2
+Line 7: V7 to V3
+Line 8: V8 to V4
+Line 9: V9 to V5
+Line 10: V10 to V0
+Line 11: V7 to V6
+Line 12: V8 to V7
+Line 13: V9 to V8
+Line 14: V11 to V9
+Line 15: V12 to V11
+Line 16: V12 to V13
+Line 17: V13 to V14
+Line 18: V13 to V15
+Line 19: V15 to V16
+Line 20: V17 to V16
+Line 21: V18 to V17
+Line 22: V12 to V18
+Line 23: V19 to V15
+Line 24: V20 to V16
+Line 25: V21 to V17
+Line 26: V22 to V18
+Line 27: V20 to V19
+Line 28: V21 to V20
+Line 29: V22 to V21
+Line 30: V10 to V22
+End

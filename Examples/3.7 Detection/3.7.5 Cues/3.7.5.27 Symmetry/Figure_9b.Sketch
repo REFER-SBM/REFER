@@ -1,0 +1,72 @@
+Vertex 0:     -285.320194,      95.781300 D:   0
+Vertex 1:      -85.551834,     296.962742 D:   0
+Vertex 2:       42.986049,     223.929843 D:   1
+Vertex 3:       23.070156,     100.451309 D:   2
+Vertex 4:      174.399285,     142.163822 D:   3
+Vertex 5:      103.932660,    -126.279961 D:   5
+Vertex 6:      300.891106,      68.737997 D:   4
+Vertex 7:     -182.361769,      36.047119 D:   7
+Vertex 8:       97.585265,     -78.253741 D:  10
+Vertex 9:        2.883770,     -69.691101 D:   6
+Vertex 10:      200.540783,    -130.580782 D:  12
+Vertex 11:      -83.657382,      30.111452 D:   9
+Vertex 12:     -181.705510,      92.733805 D:  14
+Vertex 13:      -85.551834,     187.091079 D:  16
+Vertex 14:       43.256546,     114.199512 D:  18
+Vertex 15:       25.097199,      -5.568729 D:  20
+Vertex 16:      172.963274,      38.002968 D:  22
+Vertex 17:      302.750981,     -30.765145 D:  24
+Vertex 18:     -285.379462,    -180.187219 D:  27
+Vertex 19:     -183.669919,    -181.235772 D:  28
+Vertex 20:     -102.483667,    -283.299629 D:  29
+Vertex 21:       -1.079194,    -286.119630 D:  30
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V6
+Line 5: V5 to V6
+Line 6: V5 to V9
+Line 7: V9 to V7
+Line 8: V7 to V0
+Line 9: V7 to V11
+Line 10: V11 to V8
+Line 11: V9 to V8
+Line 12: V8 to V10
+Line 13: V5 to V10
+Line 14: V12 to V11
+Line 15: V0 to V12
+Line 16: V12 to V13
+Line 17: V13 to V1
+Line 18: V13 to V14
+Line 19: V14 to V2
+Line 20: V15 to V3
+Line 21: V15 to V14
+Line 22: V15 to V16
+Line 23: V16 to V4
+Line 24: V16 to V17
+Line 25: V17 to V6
+Line 26: V10 to V17
+Line 27: V18 to V7
+Line 28: V19 to V11
+Line 29: V20 to V9
+Line 30: V21 to V8
+Line 31: V18 to V19
+Line 32: V19 to V21
+Line 33: V20 to V21
+Line 34: V18 to V20
+Face 0: 4 L15 L8 L9 L14
+Face 1: 4 L17 L0 L15 L16
+Face 2: 4 L19 L1 L17 L18
+Face 3: 4 L20 L2 L19 L21
+Face 4: 4 L23 L3 L20 L22
+Face 5: 4 L25 L4 L23 L24
+Face 6: 4 L13 L5 L25 L26
+Face 7: 9 L7 L8 L0 L1 L2 L3 L4 L5 L6
+Face 8: 9 L10 L12 L26 L24 L22 L21 L18 L16 L14
+Face 9: 4 L11 L6 L13 L12
+Face 10: 4 L31 L28 L9 L27
+Face 11: 4 L32 L30 L10 L28
+Face 12: 4 L33 L29 L11 L30
+Face 13: 4 L27 L7 L29 L34
+Face 14: 4 L34 L33 L32 L31

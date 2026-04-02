@@ -1,0 +1,14 @@
+Comment Non-Trihedral Non-Axis-Aligned Vertex
+Vertex 0: 872.727273,124.675325 D:0 
+Vertex 1: 623.376623,0.000000 D:0 
+Vertex 2: 623.376623,623.376623 D:1 
+Vertex 3: 0.000000,124.675325 D:3 
+Vertex 4: 436.363636,187.012987 D:4 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V0
+Line 3: V1 to V3
+Line 4: V4 to V1
+Line 5: V4 to V2
+Line 6: V4 to V3
+End

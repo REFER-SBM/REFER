@@ -1,0 +1,19 @@
+Comment Slanted Isometric Projection
+Vertex 0: 0.000000,765.842791 D:0 
+Vertex 1: 0.000000,352.882822 D:1 
+Vertex 2: 281.645335,50.855056 D:2 
+Vertex 3: 680.530743,0.000000 D:3 
+Vertex 4: 682.585423,570.699506 D:4 
+Vertex 5: 398.895681,872.727273 D:5 
+Vertex 6: 398.895681,459.767304 D:6 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V0
+Line 6: V1 to V6
+Line 7: V6 to V5
+Line 8: V6 to V3
+Line 9: V2 to V6
+End

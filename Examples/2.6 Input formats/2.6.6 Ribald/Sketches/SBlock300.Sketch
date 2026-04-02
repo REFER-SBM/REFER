@@ -1,0 +1,31 @@
+Vertex 0: 242.352941,0.000000 D:0 
+Vertex 1: 0.000000,308.235294 D:0 
+Vertex 2: 284.705882,477.647059 D:1 
+Vertex 3: 110.588235,811.764706 D:2 
+Vertex 4: 216.470588,863.529412 D:3 
+Vertex 5: 421.176471,421.176471 D:4 
+Vertex 6: 141.176471,277.647059 D:5 
+Vertex 7: 312.941176,54.117647 D:6 
+Vertex 8: 797.647059,75.294118 D:8 
+Vertex 9: 830.588235,136.470588 D:9 
+Vertex 10: 731.764706,362.352941 D:10 
+Vertex 11: 960.000000,531.764706 D:11 
+Vertex 12: 816.470588,952.941176 D:12 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V6
+Line 6: V6 to V7
+Line 7: V7 to V0
+Line 8: V0 to V8
+Line 9: V7 to V9
+Line 10: V6 to V10
+Line 11: V5 to V11
+Line 12: V4 to V12
+Line 13: V12 to V11
+Line 14: V10 to V11
+Line 15: V10 to V9
+Line 16: V9 to V8
+End

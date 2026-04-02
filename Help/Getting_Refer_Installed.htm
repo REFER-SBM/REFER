@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>Getting Refer Installed</Title>
+</HEAD>
+<BODY>
+
+
+<p style="font-size:35px">
+<b>1.4 Getting Refer Installed</b>
+</p>
+
+<p>
+REFER can be downloaded from <b>https://github.com/REFER-SBM/REFER/</b> site. The installation package includes a setup assistant that automatically installs the executable software, the necessary configuration files, and a collection of sample projects.
+</p>
+ 
+<p>
+REFER can also be compiled and linked from its source code. The source code is written in C++<sup>(1)</sup> and provided as a Microsoft Visual Studio Solution that leverages Microsoft Foundation Classes (MFC<sup>(2)</sup>) to build the interactive environment. It can be compiled and linked using Microsoft Visual Studio 2008 ((C) Microsoft Corporation 2007).
+</p>
+
+<p>
+The solution can be exported to Microsoft Visual Studio Community 2015 or 2019. The warnings generated during the migration process can be safely ignored<sup>(3)</sup> . 
+</p>
+
+<p>
+In both cases, the terms of use are similar&mdash;though not identical&mdash;to those of copyleft licenses (in particular, the source code is not bundled with the executable). 
+You can study, use, distribute and modify it, as long as the software and any derivates remain free and open source. You cannot claim ownership of the software or pass it off as your own original work. If you use it for academic purposes, please cite this handbook, the REGEO group, or the corresponding reference for the specific module or algorithm.
+</p>
+
+<p>
+This help document is provided with the application. It can be accessed through the "help" command located at the end of the <a href="Main_Toolbar.htm">main toolbar</a>. Alternatively, the help file can be opened directly by running <b>Refer.chm</b>, located in the Help folder.
+</p>
+
+<p>
+The help document was created using Microsoft's HTML Help Workshop compiler (R). The file <b>Refer.hhp</b> is also provided for users interested in editing the help content.
+</p>
+
+<br><br>
+<p>NOTES:<br>
+	<blockquote>
+	(1) For readers interested in learning C++, we recommend <i>"Eckel B. Thinking in C++, Second edition, Prentice Hall, 2000"</i>.
+	</p>
+
+	(2) Microsoft Foundation Class Library (MFC) is a C++ object-oriented library for developing desktop applications for Windows. For those interested in learning MFC, we recommend <i>"Jones R.M. Introduction to MFC Programming with Visual C++, Prentice Hall, 2000"</i>.
+	</p>
+
+	<p>
+	(3) The application uses two different approaches to produce a <a href="Vectorization_Introduction.htm">Vectorized Line-Drawing</a>.
+	One of these approaches is a third-party contribution:
+	 </p>
+	        <blockquote>
+        	</p><i>
+        	Fonseca M.J., Pimentel C. and Jorge J.A. (2002) 
+			CALI: An Online Scribble Recognizer for Calligraphic Interface. 
+			AAAI Technical Report SS-02-08. Compilation copyright © 2002, AAAI (www.aaai.org)
+        	</i></p>
+        	</blockquote>
+	</p>
+	To compile the application with an alternative to Microsoft Visual Studio 2008, the CALI library must be rebuilt using Microsoft Visual Studio Community 2015 or 2019, or similar compiler and linker: Open and run the Recognizer.sln file located in the RECOGNIZER folder. Once the resulting library (Recognizer.lib) is generated, copy it to the "lib" folder, where the freeglut lib is located.
+	</p>
+</blockquote>
+
+</BODY>
+</HTML>

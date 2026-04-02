@@ -1,0 +1,73 @@
+Vertex 0:      360.086416,      81.178610 D:   0
+Vertex 1:      292.056712,      72.825510 D:   0
+Vertex 2:      309.150842,     332.664520 D:   1
+Vertex 3:      241.120453,     324.311430 D:   1
+Vertex 4:      105.060360,     101.982180 D:   2
+Vertex 5:      105.060360,     307.605240 D:   2
+Vertex 6:      292.056712,     151.366530 D:   3
+Vertex 7:      342.992285,     105.503680 D:   3
+Vertex 8:      138.901803,      80.444400 D:   4
+Vertex 9:       62.498443,     149.239020 D:   4
+Vertex 10:      130.528147,     284.674150 D:   5
+Vertex 11:      155.996619,     261.742390 D:   5
+Vertex 12:       37.029971,     299.252140 D:   6
+Vertex 13:      266.588240,     389.921360 D:   7
+Vertex 14:       62.498443,     364.862080 D:   7
+Vertex 15:       62.498443,     276.321060 D:   8
+Vertex 16:       37.029971,      93.629080 D:  10
+Vertex 17:      241.120453,     412.852450 D:  11
+Vertex 18:      266.588240,     301.380340 D:  12
+Vertex 19:      360.086416,     286.801670 D:  13
+Vertex 20:      155.996619,     134.660350 D:  14
+Vertex 21:       62.498443,      70.698000 D:  19
+Vertex 22:      342.992285,      26.962660 D:  20
+Vertex 23:      130.528147,      79.051100 D:  21
+Vertex 24:      130.528147,     157.592110 D:  21
+Vertex 25:      138.901803,     296.067460 D:  34
+Vertex 26:      411.022674,      35.315760 D:  28
+Vertex 27:      411.022674,     329.479830 D:  30
+Vertex 28:      309.150842,     421.205540 D:  31
+Line 0: V1 to V0
+Line 1: V3 to V2
+Line 2: V5 to V4
+Line 3: V7 to V6
+Line 4: V9 to V8
+Line 5: V11 to V10
+Line 6: V12 to V5
+Line 7: V14 to V13
+Line 8: V12 to V15
+Line 9: V14 to V15
+Line 10: V16 to V12
+Line 11: V17 to V13
+Line 12: V13 to V18
+Line 13: V2 to V19
+Line 14: V20 to V6
+Line 15: V8 to V7
+Line 16: V11 to V19
+Line 17: V10 to V18
+Line 18: V19 to V0
+Line 19: V9 to V21
+Line 20: V7 to V22
+Line 21: V24 to V23
+Line 22: V21 to V23
+Line 23: V23 to V4
+Line 24: V22 to V1
+Line 25: V6 to V1
+Line 26: V18 to V3
+Line 27: V17 to V3
+Line 28: V26 to V0
+Line 29: V26 to V22
+Line 30: V27 to V26
+Line 31: V28 to V27
+Line 32: V17 to V28
+Line 33: V21 to V16
+Line 34: V25 to V14
+Line 35: V8 to V25
+Line 36: V27 to V25
+Line 37: V28 to V2
+Line 38: V16 to V4
+Line 39: V9 to V24
+Line 40: V11 to V20
+Line 41: V20 to V24
+Line 42: V5 to V10
+Line 43: V10 to V15

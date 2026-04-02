@@ -1,0 +1,18 @@
+Comment Pentagonal Pyramid
+Vertex 0: 480.000000,0.000000 D:0 
+Vertex 1: 960.000000,348.631579 D:0 
+Vertex 2: 776.842105,914.526316 D:1 
+Vertex 3: 183.157895,914.526316 D:2 
+Vertex 4: 0.000000,348.631579 D:3 
+Vertex 5: 480.000000,252.631579 D:5 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V0
+Line 5: V5 to V0
+Line 6: V5 to V1
+Line 7: V5 to V2
+Line 8: V5 to V3
+Line 9: V5 to V4
+End

@@ -1,0 +1,76 @@
+Vertex 0:     -336.179030,     -35.505262 D:   0
+Vertex 1:     -337.815297,     197.238737 D:   0
+Vertex 2:        6.717616,      71.301891 D:   2
+Vertex 3:       39.351936,     134.239505 D:   3
+Vertex 4:       39.351936,     319.628198 D:   1
+Vertex 5:      291.842586,     -58.499535 D:   5
+Vertex 6:      166.885743,      -0.009100 D:   6
+Vertex 7:      330.232818,       6.858469 D:   7
+Vertex 8:      -71.559175,    -160.136171 D:   5
+Vertex 9:      -83.820239,      97.106079 D:   9
+Vertex 10:      324.346559,     192.863696 D:  11
+Vertex 11:      122.854633,      21.015757 D:  15
+Vertex 12:       77.246547,     -26.166400 D:  16
+Vertex 13:     -190.797272,     -14.097225 D:  18
+Vertex 14:      -46.587355,      33.284182 D:  18
+Vertex 15:      -42.937657,    -205.162968 D:  19
+Vertex 16:     -190.797272,    -249.616659 D:  20
+Vertex 17:      160.998578,     -64.241577 D:  17
+Vertex 18:       31.078400,    -243.652893 D:  23
+Vertex 19:       39.340723,      -9.915320 D:  25
+Vertex 20:      169.693540,    -298.013538 D:  22
+Vertex 21:       -3.734844,    -107.165075 D:  29
+Vertex 22:        5.249635,    -334.023166 D:  31
+Vertex 23:       80.678098,    -261.799113 D:  28
+Line 0: V0 to V1
+Line 1: V1 to V4
+Line 2: V0 to V2
+Line 3: V2 to V3
+Line 4: V3 to V4
+Line 5: V8 to V5
+Line 6: V6 to V5
+Line 7: V3 to V7
+Line 8: V5 to V7
+Line 9: V8 to V9
+Line 10: V1 to V9
+Line 11: V9 to V10
+Line 12: V7 to V10
+Line 13: V4 to V10
+Line 14: V0 to V8
+Line 15: V2 to V11
+Line 16: V12 to V6
+Line 17: V12 to V17
+Line 18: V13 to V14
+Line 19: V14 to V15
+Line 20: V13 to V16
+Line 21: V16 to V15
+Line 22: V20 to V17
+Line 23: V18 to V11
+Line 24: V15 to V18
+Line 25: V19 to V18
+Line 26: V19 to V11
+Line 27: V14 to V19
+Line 28: V23 to V20
+Line 29: V21 to V17
+Line 30: V13 to V21
+Line 31: V21 to V22
+Line 32: V16 to V22
+Line 33: V22 to V20
+Line 34: V23 to V12
+Line 35: V23 to V6
+Line 36: V18 to V23
+Face 0: 3 L35 L34 L16
+Face 1: 4 L28 L22 L17 L34
+Face 2: 4 L31 L29 L22 L33
+Face 3: 4 L20 L30 L31 L32
+Face 4: 6 L24 L21 L32 L33 L28 L36
+Face 5: 4 L19 L18 L20 L21
+Face 6: 4 L25 L27 L19 L24
+Face 7: 3 L23 L26 L25
+Face 8: 8 L7 L3 L15 L23 L36 L35 L6 L8
+Face 9: 12 L14 L5 L6 L16 L17 L29 L30 L18 L27 L26 L15 L2
+Face 10: 5 L1 L0 L2 L3 L4
+Face 11: 4 L4 L7 L12 L13
+Face 12: 4 L10 L9 L14 L0
+Face 13: 5 L12 L8 L5 L9 L11
+Face 14: 4 L11 L10 L1 L13

@@ -1,0 +1,58 @@
+Vertex 0:      149.165522,    -132.440660 D:   0
+Vertex 1:      438.563532,     -69.550600 D:   0
+Vertex 2:      438.544215,      -8.909530 D:   1
+Vertex 3:      149.146204,     -71.799590 D:   2
+Vertex 4:      289.328468,     281.197910 D:   4
+Vertex 5:      289.378693,     123.531130 D:   4
+Vertex 6:      192.912690,     102.567770 D:   5
+Vertex 7:      192.862465,     260.234560 D:   6
+Vertex 8:       96.396461,     239.271200 D:   7
+Vertex 9:       96.446686,      81.604420 D:   8
+Vertex 10:      122.796445,       4.902410 D:   9
+Vertex 11:      122.815763,     -55.738650 D:  12
+Vertex 12:      122.746220,     162.569190 D:  14
+Vertex 13:      412.144231,     225.459250 D:  17
+Vertex 14:      412.194456,      67.792470 D:  18
+Vertex 15:      508.679776,      28.114750 D:  21
+Vertex 16:      412.213772,       7.151400 D:  22
+Vertex 17:       26.349759,     -76.702010 D:  25
+Vertex 18:        0.000000,       0.000000 D:  27
+Vertex 19:      482.330017,     104.816760 D:  29
+Vertex 20:      385.844697,     144.494480 D:  30
+Vertex 21:      385.794472,     302.161260 D:  32
+Line 0: V1 to V0
+Line 1: V2 to V1
+Line 2: V3 to V2
+Line 3: V0 to V3
+Line 4: V5 to V4
+Line 5: V6 to V5
+Line 6: V7 to V6
+Line 7: V8 to V7
+Line 8: V9 to V8
+Line 9: V9 to V10
+Line 10: V3 to V10
+Line 11: V6 to V10
+Line 12: V11 to V10
+Line 13: V11 to V0
+Line 14: V10 to V12
+Line 15: V7 to V12
+Line 16: V8 to V12
+Line 17: V4 to V13
+Line 18: V14 to V13
+Line 19: V5 to V14
+Line 20: V2 to V14
+Line 21: V14 to V15
+Line 22: V15 to V16
+Line 23: V14 to V16
+Line 24: V1 to V16
+Line 25: V17 to V10
+Line 26: V11 to V17
+Line 27: V18 to V17
+Line 28: V18 to V9
+Line 29: V15 to V19
+Line 30: V20 to V19
+Line 31: V14 to V20
+Line 32: V21 to V20
+Line 33: V21 to V13
+Line 34: V4 to V21
+Line 35: V19 to V18

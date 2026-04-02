@@ -1,0 +1,50 @@
+Vertex 0:      106.453696,    -374.262067 D:   0
+Vertex 1:      116.843021,    -147.181109 D:   1
+Vertex 2:      351.120114,    -539.445432 D:   0
+Vertex 3:      357.109306,    -299.877752 D:   2
+Vertex 4:      245.480569,    -324.131581 D:   5
+Vertex 5:      256.166433,    -192.848109 D:   5
+Vertex 6:      792.885021,     -89.555612 D:   7
+Vertex 7:      788.225059,     137.229785 D:   4
+Vertex 8:      805.446646,    -348.125371 D:   8
+Vertex 9:     1062.005652,    -255.393203 D:   8
+Vertex 10:     1053.544838,     -40.451649 D:  10
+Vertex 11:      654.602234,    -152.386785 D:  11
+Vertex 12:      650.996292,     -19.245880 D:  11
+Vertex 13:      564.122994,    -448.960583 D:  16
+Vertex 14:      563.781514,    -305.749930 D:  18
+Vertex 15:      812.811521,    -210.231579 D:  20
+Line 0: V2 to V0
+Line 1: V0 to V1
+Line 2: V2 to V3
+Line 3: V1 to V3
+Line 4: V1 to V7
+Line 5: V4 to V5
+Line 6: V0 to V4
+Line 7: V6 to V7
+Line 8: V8 to V9
+Line 9: V6 to V9
+Line 10: V9 to V10
+Line 11: V11 to V12
+Line 12: V5 to V12
+Line 13: V3 to V10
+Line 14: V7 to V10
+Line 15: V11 to V6
+Line 16: V2 to V13
+Line 17: V4 to V13
+Line 18: V13 to V14
+Line 19: V5 to V14
+Line 20: V14 to V15
+Line 21: V8 to V15
+Line 22: V12 to V15
+Line 23: V11 to V8
+Face 0: 4 L17 L16 L0 L6
+Face 1: 4 L3 L1 L0 L2
+Face 2: 4 L19 L18 L17 L5
+Face 3: 4 L14 L4 L3 L13
+Face 4: 4 L22 L20 L19 L12
+Face 5: 8 L8 L10 L13 L2 L16 L18 L20 L21
+Face 6: 4 L9 L7 L14 L10
+Face 7: 8 L15 L11 L12 L5 L6 L1 L4 L7
+Face 8: 4 L15 L9 L8 L23
+Face 9: 4 L23 L21 L22 L11

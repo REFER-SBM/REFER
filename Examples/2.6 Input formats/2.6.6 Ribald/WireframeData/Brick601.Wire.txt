@@ -1,0 +1,49 @@
+Vertex 0: 297.163308,307.511934
+Vertex 1: 813.301484,611.740421
+Vertex 2: 81.156798,493.990109
+Vertex 3: 297.163308,71.959349
+Vertex 4: 408.385794,137.517470
+Vertex 5: 597.294974,798.218595
+Vertex 6: 813.301484,498.486434
+Vertex 7: 81.156798,258.437530
+Vertex 8: 597.294974,562.666017
+Vertex 9: 229.660218,130.234692
+Vertex 10: 408.385794,259.816068
+Vertex 11: 340.882697,195.792814
+Vertex 12: 166.515193,184.747723
+Vertex 13: 277.737679,250.305837
+Vertex 14: 192.379277,323.995645
+Vertex 15: 277.737679,298.634069
+Vertex 16: 229.660218,214.314379
+Vertex 17: 166.515193,233.075948
+Vertex 18: 340.882697,279.872500
+Edge 0: V0 to V1
+Edge 1: V0 to V2
+Edge 2: V3 to V4
+Edge 3: V1 to V5
+Edge 4: V6 to V1
+Edge 5: V7 to V2
+Edge 6: V8 to V5
+Edge 7: V3 to V9
+Edge 8: V2 to V5
+Edge 9: V8 to V6
+Edge 10: V10 to V6
+Edge 11: V4 to V11
+Edge 12: V9 to V11
+Edge 13: V12 to V13
+Edge 14: V14 to V15
+Edge 15: V9 to V16
+Edge 16: V12 to V17
+Edge 17: V13 to V15
+Edge 18: V11 to V18
+Edge 19: V18 to V10
+Edge 20: V12 to V7
+Edge 21: V13 to V14
+Edge 22: V10 to V4
+Edge 23: V16 to V18
+Edge 24: V15 to V17
+Edge 25: V17 to V16
+Edge 26: V0 to V3
+Edge 27: V8 to V14
+Edge 28: V14 to V7
+Finish
