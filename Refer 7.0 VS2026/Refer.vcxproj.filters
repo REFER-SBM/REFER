@@ -1,0 +1,1491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Cpp code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Cpp code\Dialogs">
+      <UniqueIdentifier>{8a9ea9bb-d2e8-473c-a46d-e1b8a6302e9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\8 Refinement 3D">
+      <UniqueIdentifier>{6a937b98-7fcc-4adc-9017-d1e7370ac567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data">
+      <UniqueIdentifier>{1e653740-b55e-411e-9ecc-523963b13a7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\3 DataRefine2D">
+      <UniqueIdentifier>{64cfb7d5-5a6b-4899-8b65-89d188933c38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\5 DataDirectInflation">
+      <UniqueIdentifier>{6a3e31d0-b82c-41b9-8ae6-deb03852608c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\2 DataVectorize">
+      <UniqueIdentifier>{578dccfd-6986-46d7-96f0-628f5cc9fdcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\4 DataDetection">
+      <UniqueIdentifier>{7ac20e29-c3d2-4e04-9edd-33e25f344926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\4 DataDetection\DataCues">
+      <UniqueIdentifier>{7d47f1ec-2b00-4eb1-806f-2b3da6a74ef5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\4 DataDetection\DataFeatures">
+      <UniqueIdentifier>{077edda7-cde7-47d7-b055-4889418e9e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\0 DataMain">
+      <UniqueIdentifier>{44ee9440-479a-4eeb-b5a7-c8efbf9bd6c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\6 DataOptimize">
+      <UniqueIdentifier>{ba6f4ec1-f36a-421f-aad9-d025d9a3ae75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\8 DataRefine3D">
+      <UniqueIdentifier>{5f9437f8-04b0-4bbe-aa7d-600d58acf557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\7 DataCSG">
+      <UniqueIdentifier>{5d37f501-74b9-4a2e-8a52-d9feb14f4ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Data\9 DataTesellation3D">
+      <UniqueIdentifier>{e5b1f4dc-32a2-415f-89ab-1ca09bbb3cb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\InOut">
+      <UniqueIdentifier>{b6082713-6679-4370-9d8a-a607a0d8f508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Display %28WinRf%29">
+      <UniqueIdentifier>{414eb5aa-cdb6-4af1-a9f9-8ce3636c218b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\DataBases">
+      <UniqueIdentifier>{4c0e0641-8675-4b5d-867c-8ee3c3a0a9f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\Tools">
+      <UniqueIdentifier>{dbf38a71-aaa8-4f93-b11a-2f220997de31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\2 Vectorization">
+      <UniqueIdentifier>{3340d33c-6e89-4e86-8c81-55a6f098b356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\3 Refinement 2D">
+      <UniqueIdentifier>{c695a03b-b6b2-4695-b2f4-a3405efb6a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\6 Optimization">
+      <UniqueIdentifier>{d2d98c69-fc87-4c28-bddb-ddddf7d4507b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\5 Direct Inflation">
+      <UniqueIdentifier>{5ec0ba66-d9cf-4713-a8e7-cbf7d3492396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\7 CSG">
+      <UniqueIdentifier>{8d15868c-eb71-4a2f-b997-747624425ff0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\4 Detection">
+      <UniqueIdentifier>{2465713c-29aa-4f05-9702-5fe79466541c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\4 Detection\4.1 Cues">
+      <UniqueIdentifier>{9915e014-1296-4822-8cdd-7332c2060268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\4 Detection\4.1 Cues\CueLabels">
+      <UniqueIdentifier>{ddbf6a22-3095-414b-adf4-61138b8bb01f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\4 Detection\4.1 Cues\CueFaces">
+      <UniqueIdentifier>{28f31a34-b68b-4ed6-9f5a-cb41b3084bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\4 Detection\4.1 Cues\4.2 Features">
+      <UniqueIdentifier>{93b58c3c-f2fe-4370-900f-241cde77f0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\0 Main">
+      <UniqueIdentifier>{9c6b7a15-bc13-4dbc-a531-40a9c0ac1984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\1 Sketching">
+      <UniqueIdentifier>{2c5768e2-8103-42fb-b9a8-b494a8d1442f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cpp code\9 Tesellation 3D">
+      <UniqueIdentifier>{b711026b-0e60-468c-8a03-31c1b69990c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="H headings\Dialogs">
+      <UniqueIdentifier>{d34c0e82-cd0e-4f16-bc33-2aad9bf9d346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\4 Direct Inflation">
+      <UniqueIdentifier>{692fd313-02fa-461a-a412-cf5a33799d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data">
+      <UniqueIdentifier>{05d47350-4863-4047-a261-64d64c39889a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\2 DataRefine2D">
+      <UniqueIdentifier>{14c8556e-7a4c-4e61-8a3d-8489939d7fcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\4 DataDirectInflation">
+      <UniqueIdentifier>{13346593-2105-4a7b-82eb-21e74abce3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\1 DataVectorize">
+      <UniqueIdentifier>{5578337c-6c99-4381-9d3e-a4c6ff9efc33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\3 DataDetection">
+      <UniqueIdentifier>{840a76ae-7e7e-484a-9a9d-6af32cc069c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\3 DataDetection\DataFeatures">
+      <UniqueIdentifier>{2bb8b336-8795-43e7-bc6b-936d45853eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\3 DataDetection\DataCues">
+      <UniqueIdentifier>{95659cc1-cce4-42c0-a84c-7d39827cda4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\0 DataMain">
+      <UniqueIdentifier>{95f22905-f437-4df3-9b2b-ac1dea7064f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\5 DataOptimize">
+      <UniqueIdentifier>{d029886b-3dc8-47f2-b5f6-97c6784ddd73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\6 DataRefine3D">
+      <UniqueIdentifier>{18146bb9-8050-4742-b744-6da7c91af542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\8 DataCSG">
+      <UniqueIdentifier>{43f392fd-00d0-4a6c-bf08-42e0076ba759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Data\7 DataTessellation3D">
+      <UniqueIdentifier>{f06904de-e8b9-4b9e-ae22-b630876896dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\InOut">
+      <UniqueIdentifier>{0bdb137d-a844-4b5b-ad6a-07536f4b4a0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\5 Optimization">
+      <UniqueIdentifier>{538c2886-3546-4d08-97a4-d2029d8d52ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\WinRf">
+      <UniqueIdentifier>{54384d1e-5c72-4653-b75a-801fe68c2ff6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\DataBases">
+      <UniqueIdentifier>{f176273e-cb90-40f0-acf4-0f9e5e4ca44a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\Tools">
+      <UniqueIdentifier>{d1fc5dfa-d634-42c5-ae6c-4a18899decd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\0 Main">
+      <UniqueIdentifier>{63378647-09f9-438d-bd1e-125af848f11a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\1 Vectorization">
+      <UniqueIdentifier>{e6748a7d-f2c3-40b5-834a-fdbd02def84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\2 Refinement 2D">
+      <UniqueIdentifier>{074dd949-031a-4775-abef-24b60e950564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\3 Detection">
+      <UniqueIdentifier>{08f5ffb2-4fb2-47ac-b2b3-bd2c1ecf0a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\3 Detection\Cues">
+      <UniqueIdentifier>{35617245-48d7-453c-8179-b83f042bbcc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\3 Detection\Cues\CueLabels">
+      <UniqueIdentifier>{fe6a9596-9f3c-48b8-8a88-06941af95809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\3 Detection\Cues\CueFaces">
+      <UniqueIdentifier>{114107b0-8fa6-4f5a-84ca-a3518f132bc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\3 Detection\Features">
+      <UniqueIdentifier>{c504f5fa-f4e5-4248-959e-d5487fc399fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\6 Refinement 3D">
+      <UniqueIdentifier>{12a9526d-8c1d-4db8-b69b-a748e31f2ef3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\8 CSG">
+      <UniqueIdentifier>{b5a6d165-c8a9-49b5-89da-4fe8dd01bfc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="H headings\7 Tessellation 3D">
+      <UniqueIdentifier>{d568a213-4dd6-47f1-80b4-d259fb4e52b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DialogConfigCSG.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigCues.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigDetectCuesFeatures.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigDirectInflation.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigDisplayCSG.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigDisplayFeatures.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigFeatures.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigInflation.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigOptimizationInflation.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigRefine2D.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigRefine3D.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigTessellate3D.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogConfigVectorize2D.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsChamfersAndRounds.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsFaces.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsGroupNonSolidStrokes.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsGroupOvertracedStrokes.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsHiddenEdges.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsHillClimbing.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsInflation.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsLabels.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsLevels.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsLevelsHidden.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsMainAxes.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsMergeVertices.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsParallelEdges.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsPerimeter.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsPreInflateAutomatic.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsPreInflateAxonometric.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsRailsAndSlots.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsRegularitiesCost.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsRegularitiesNature.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsRegularitiesUser.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsRibsAndDividers.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsSimulatedAnnealing.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsSimulatedAnnealingMulti.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsStepsAndPockets.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsStrokeVectorize.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsSubGraphs.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsSymmetry.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsTypology.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsValences.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsVanishingPoints.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogDistortDrawing.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogEraseStrokesTools.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogFilterStroke.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogHiddenEdges.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogHillClimbingPreConfig.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogLabelsFont.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMainAxesManual.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogMainAxesRules.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogOptimizationConfig.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogOptimizationIsolines.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogOptimizationPan.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogPreviousNext.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogPreviousNextCSG.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogProgress.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogRegularities2D.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogRotateAngle.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogScaleStroke.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSelectTree.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogSettingsRefer.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogToolsDisplayStrokes.cpp">
+      <Filter>Cpp code\Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="Refine3D.cpp">
+      <Filter>Cpp code\8 Refinement 3D</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRefine2D.cpp">
+      <Filter>Cpp code\Data\3 DataRefine2D</Filter>
+    </ClCompile>
+    <ClCompile Include="DataAxonometric.cpp">
+      <Filter>Cpp code\Data\5 DataDirectInflation</Filter>
+    </ClCompile>
+    <ClCompile Include="DataDirectInflation.cpp">
+      <Filter>Cpp code\Data\5 DataDirectInflation</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLevels.cpp">
+      <Filter>Cpp code\Data\5 DataDirectInflation</Filter>
+    </ClCompile>
+    <ClCompile Include="DataVectorize.cpp">
+      <Filter>Cpp code\Data\2 DataVectorize</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCues.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFaces.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataHiddenEdges.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataLabels.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataMainAxes.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataParallelEdges.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataPerimeter.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSubGraphs.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSymmetry.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTypology.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataValences.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataVanishingPoints.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataCues</Filter>
+    </ClCompile>
+    <ClCompile Include="DataChamfersAndRounds.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="DataFeatures.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRailsAndSlots.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRibsAndDividers.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStepsAndPockets.cpp">
+      <Filter>Cpp code\Data\4 DataDetection\DataFeatures</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRefer.cpp">
+      <Filter>Cpp code\Data\0 DataMain</Filter>
+    </ClCompile>
+    <ClCompile Include="DataInflation.cpp">
+      <Filter>Cpp code\Data\6 DataOptimize</Filter>
+    </ClCompile>
+    <ClCompile Include="DataOptHC.cpp">
+      <Filter>Cpp code\Data\6 DataOptimize</Filter>
+    </ClCompile>
+    <ClCompile Include="DataOptSA.cpp">
+      <Filter>Cpp code\Data\6 DataOptimize</Filter>
+    </ClCompile>
+    <ClCompile Include="DataOptSAM.cpp">
+      <Filter>Cpp code\Data\6 DataOptimize</Filter>
+    </ClCompile>
+    <ClCompile Include="DataRefine3D.cpp">
+      <Filter>Cpp code\Data\8 DataRefine3D</Filter>
+    </ClCompile>
+    <ClCompile Include="DataCSG.cpp">
+      <Filter>Cpp code\Data\7 DataCSG</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTessellate3D.cpp">
+      <Filter>Cpp code\Data\9 DataTesellation3D</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutCSG.cpp">
+      <Filter>Cpp code\InOut</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutDXF.cpp">
+      <Filter>Cpp code\InOut</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutIGES.cpp">
+      <Filter>Cpp code\InOut</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutOBJ.cpp">
+      <Filter>Cpp code\InOut</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutRibald.cpp">
+      <Filter>Cpp code\InOut</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutSketch.cpp">
+      <Filter>Cpp code\InOut</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutSTEP.cpp">
+      <Filter>Cpp code\InOut</Filter>
+    </ClCompile>
+    <ClCompile Include="InOutSTL.cpp">
+      <Filter>Cpp code\InOut</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_FrameModelBrep.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_FrameModelCSG.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_FrameOptimization.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_FrameSketch2D.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_GDI_Transform.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_MainFrame.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_OpenGDDevice.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_OpenGLViewInflation.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_OpenGLViewModelBrep.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_OpenGLViewModelCSG.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_TrackBall.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_ViewModelBrep.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_ViewModelCSG.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_ViewOptimization.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="WinRf_ViewSketch2D.cpp">
+      <Filter>Cpp code\Display %28WinRf%29</Filter>
+    </ClCompile>
+    <ClCompile Include="DB_CSG.cpp">
+      <Filter>Cpp code\DataBases</Filter>
+    </ClCompile>
+    <ClCompile Include="DB_Model.cpp">
+      <Filter>Cpp code\DataBases</Filter>
+    </ClCompile>
+    <ClCompile Include="DB_Model_Maths.cpp">
+      <Filter>Cpp code\DataBases</Filter>
+    </ClCompile>
+    <ClCompile Include="DB_Sketch.cpp">
+      <Filter>Cpp code\DataBases</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools_Geometry.cpp">
+      <Filter>Cpp code\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools_Matrix.cpp">
+      <Filter>Cpp code\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools_Vector.cpp">
+      <Filter>Cpp code\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="StrokeCornerFinder.cpp">
+      <Filter>Cpp code\2 Vectorization</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectorization.cpp">
+      <Filter>Cpp code\2 Vectorization</Filter>
+    </ClCompile>
+    <ClCompile Include="Refine2D.cpp">
+      <Filter>Cpp code\3 Refinement 2D</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizationBasedInflation.cpp">
+      <Filter>Cpp code\6 Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizationCost.cpp">
+      <Filter>Cpp code\6 Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="OptimizationFlow.cpp">
+      <Filter>Cpp code\6 Optimization</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectInflation.cpp">
+      <Filter>Cpp code\5 Direct Inflation</Filter>
+    </ClCompile>
+    <ClCompile Include="InflationAxonometric.cpp">
+      <Filter>Cpp code\5 Direct Inflation</Filter>
+    </ClCompile>
+    <ClCompile Include="InflationLevels.cpp">
+      <Filter>Cpp code\5 Direct Inflation</Filter>
+    </ClCompile>
+    <ClCompile Include="CSG_Deconstruct.cpp">
+      <Filter>Cpp code\7 CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="CSG_Maths.cpp">
+      <Filter>Cpp code\7 CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="CSG_Modeling.cpp">
+      <Filter>Cpp code\7 CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="DetectionManager.cpp">
+      <Filter>Cpp code\4 Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="CueHiddenEdges.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLevels.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueMainAxes.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueManager.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueParallelEdges.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CuePerimeter.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueSubGraphs.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueSymmetry.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueTypology.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueValences.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueVanishingPoints.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabels.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_Combinatorially.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_IdentifyJunctionAngles.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_InitialiseJunctionLabels.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_JunctionToLines.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_LabelJunctions.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_LabelLines.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_LabellingConstants.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_LabellingParameters.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_Lamban.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_LineEquations.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_LineToJunctions.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_Maths.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_Object.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueLabelsVarley_Relaxation.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueLabels</Filter>
+    </ClCompile>
+    <ClCompile Include="CueFaces.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueFaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CueFacesCB.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueFaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CueFacesSL.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueFaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CueFacesSL_Optimization_Rb.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueFaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CueFacesV_Geometry.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueFaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CueFacesV_Nuts.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueFaces</Filter>
+    </ClCompile>
+    <ClCompile Include="CueFacesVarley.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\CueFaces</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureManager.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\4.2 Features</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureRailsAndSlots.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\4.2 Features</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureRibsAndDividers.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\4.2 Features</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureStepsAndPockets.cpp">
+      <Filter>Cpp code\4 Detection\4.1 Cues\4.2 Features</Filter>
+    </ClCompile>
+    <ClCompile Include="ReconstructionManager.cpp">
+      <Filter>Cpp code\0 Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Refer.cpp">
+      <Filter>Cpp code\0 Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ReferDoc.cpp">
+      <Filter>Cpp code\0 Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Gestures.cpp">
+      <Filter>Cpp code\1 Sketching</Filter>
+    </ClCompile>
+    <ClCompile Include="Tesellate3D.cpp">
+      <Filter>Cpp code\9 Tesellation 3D</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\DialogConfigCSG.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigCues.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigDetectCuesFeatures.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigDirectInflation.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigDisplayCSG.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigDisplayFeatures.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigFeatures.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigOptimizationInflation.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigRefine2D.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigRefine3D.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigTessellate3D.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogConfigVectorize2D.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsChamfersAndRounds.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsFaces.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsGroupNonSolidStrokes.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsGroupOvertracedStrokes.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsHiddenEdges.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsHillClimbing.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsInflation.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsLabels.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsLevels.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsLevelsHidden.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsMainAxes.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsMergeVertices.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsParallelEdges.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsPerimeter.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsPreInflateAutomatic.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsPreInflateAxonometric.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsRailsAndSlots.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsRegularitiesCost.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsRegularitiesNature.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsRegularitiesUser.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsRibsAndDividers.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsSimulatedAnnealing.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsSimulatedAnnealingMulti.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsStepsAndPockets.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsStrokeVectorize.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsSubGraphs.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsSymmetry.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsTypology.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsValences.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDetailsVanishingPoints.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogDistortDrawing.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogEraseStrokesTools.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogFilterStroke.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogHiddenEdges.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogHillClimbingPreConfig.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogLabelsFont.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogMainAxesManual.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogMainAxesRules.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogOptimizationConfig.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogOptimizationIsolines.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogOptimizationPan.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogPreviousNext.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogPreviousNextCSG.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogProgress.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogRegularities2D.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogRotateAngle.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogScaleStroke.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogSelectTree.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogSettingsRefer.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogToleranciasSnapAristas.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DialogToolsDisplayStrokes.h">
+      <Filter>H headings\Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DirectInflation.h">
+      <Filter>H headings\4 Direct Inflation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InflationAxonometric.h">
+      <Filter>H headings\4 Direct Inflation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InflationLevels.h">
+      <Filter>H headings\4 Direct Inflation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataRefine2D.h">
+      <Filter>H headings\Data\2 DataRefine2D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataAxonometric.h">
+      <Filter>H headings\Data\4 DataDirectInflation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataDirectInflation.h">
+      <Filter>H headings\Data\4 DataDirectInflation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataLevels.h">
+      <Filter>H headings\Data\4 DataDirectInflation</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataVectorize.h">
+      <Filter>H headings\Data\1 DataVectorize</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataChamfersAndRounds.h">
+      <Filter>H headings\Data\3 DataDetection\DataFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataFeatures.h">
+      <Filter>H headings\Data\3 DataDetection\DataFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataRailsAndSlots.h">
+      <Filter>H headings\Data\3 DataDetection\DataFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataRibsAndDividers.h">
+      <Filter>H headings\Data\3 DataDetection\DataFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataStepsAndPockets.h">
+      <Filter>H headings\Data\3 DataDetection\DataFeatures</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataCues.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataFaces.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataHiddenEdges.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataLabels.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataMainAxes.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataParallelEdges.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataPerimeter.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataSubGraphs.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataSymmetry.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataTypology.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataValences.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataVanishingPoints.h">
+      <Filter>H headings\Data\3 DataDetection\DataCues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataRefer.h">
+      <Filter>H headings\Data\0 DataMain</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataInflation.h">
+      <Filter>H headings\Data\5 DataOptimize</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataOptHC.h">
+      <Filter>H headings\Data\5 DataOptimize</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataOptSA.h">
+      <Filter>H headings\Data\5 DataOptimize</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataOptSAM.h">
+      <Filter>H headings\Data\5 DataOptimize</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataRefine3D.h">
+      <Filter>H headings\Data\6 DataRefine3D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataCSG.h">
+      <Filter>H headings\Data\8 DataCSG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataTessellate3D.h">
+      <Filter>H headings\Data\7 DataTessellation3D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutCSG.h">
+      <Filter>H headings\InOut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutDXF.h">
+      <Filter>H headings\InOut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutIGES.h">
+      <Filter>H headings\InOut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutOBJ.h">
+      <Filter>H headings\InOut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutRibald.h">
+      <Filter>H headings\InOut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutSketch.h">
+      <Filter>H headings\InOut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutSTEP.h">
+      <Filter>H headings\InOut</Filter>
+    </ClInclude>
+    <ClInclude Include="InOutSTEP.h">
+      <Filter>H headings\InOut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InOutSTL.h">
+      <Filter>H headings\InOut</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OptimizationBasedInflation.h">
+      <Filter>H headings\5 Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OptimizationCost.h">
+      <Filter>H headings\5 Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\OptimizationFlow.h">
+      <Filter>H headings\5 Optimization</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StdAfx.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_FrameModelBrep.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_FrameModelCSG.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_FrameOptimization.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_FrameSketch2D.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_GDI_Transform.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_MainFrame.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_OpenGLDevice.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_OpenGLViewInflation.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_OpenGLViewModelBrep.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_OpenGLViewModelCSG.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_TrackBall.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_ViewModelBrep.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_ViewModelCSG.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_ViewOptimization.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_ViewOptimization_Graphics.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\WinRf_ViewSketch2D.h">
+      <Filter>H headings\WinRf</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DB_CSG.h">
+      <Filter>H headings\DataBases</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DB_Model.h">
+      <Filter>H headings\DataBases</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DB_Model_Maths.h">
+      <Filter>H headings\DataBases</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DB_Sketch.h">
+      <Filter>H headings\DataBases</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tools_Geometry.h">
+      <Filter>H headings\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tools_Matrix.h">
+      <Filter>H headings\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tools_Vector.h">
+      <Filter>H headings\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Gestures.h">
+      <Filter>H headings\0 Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ReconstructionManager.h">
+      <Filter>H headings\0 Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Refer.h">
+      <Filter>H headings\0 Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ReferDoc.h">
+      <Filter>H headings\0 Main</Filter>
+    </ClInclude>
+    <ClInclude Include="include\include CALI\CIRecognizer.h">
+      <Filter>H headings\1 Vectorization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StrokeCornerFinder.h">
+      <Filter>H headings\1 Vectorization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vectorization.h">
+      <Filter>H headings\1 Vectorization</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Refine2D.h">
+      <Filter>H headings\2 Refinement 2D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DetectionManager.h">
+      <Filter>H headings\3 Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueHiddenEdges.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLevels.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueMainAxes.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueManager.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueParallelEdges.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CuePerimeter.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueSubGraphs.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueSymmetry.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueTypology.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueValences.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueVanishingPoints.h">
+      <Filter>H headings\3 Detection\Cues</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabels.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_Combinatorially.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_Constants.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_IdentifyJunctionAngles.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_InitialiseJunctionLabels.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_JunctionToLines.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_LabelJunctions.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_LabelLines.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_LabellingConstants.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_LabellingParameters.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_Lamban.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_LineToJunctions.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_Maths.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_Object.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_Relaxation.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueLabelsVarley_Types.h">
+      <Filter>H headings\3 Detection\Cues\CueLabels</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueFaces.h">
+      <Filter>H headings\3 Detection\Cues\CueFaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueFacesCB.h">
+      <Filter>H headings\3 Detection\Cues\CueFaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueFacesSL.h">
+      <Filter>H headings\3 Detection\Cues\CueFaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueFacesSL_Optimization_Rb.h">
+      <Filter>H headings\3 Detection\Cues\CueFaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueFacesV_Geometry.h">
+      <Filter>H headings\3 Detection\Cues\CueFaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueFacesV_Nuts.h">
+      <Filter>H headings\3 Detection\Cues\CueFaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CueFacesVarley.h">
+      <Filter>H headings\3 Detection\Cues\CueFaces</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FeatureRailsAndSlots.h">
+      <Filter>H headings\3 Detection\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FeatureRibsAndDividers.h">
+      <Filter>H headings\3 Detection\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FeatureStepsAndPockets.h">
+      <Filter>H headings\3 Detection\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Refine3D.h">
+      <Filter>H headings\6 Refinement 3D</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CSG_Deconstruct.h">
+      <Filter>H headings\8 CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CSG_Maths.h">
+      <Filter>H headings\8 CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CSG_Modeling.h">
+      <Filter>H headings\8 CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tessellate3D.h">
+      <Filter>H headings\7 Tessellation 3D</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\bmpLevel00.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel00o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel01.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel01o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel02.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel02o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel03.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel03o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel04.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel04o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel05.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel05o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel06o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel07o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel08o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel09o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel10o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpLevel11o.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpOneVariable.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpSuperior.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\bmpTwoVariables.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\IconInflation.ico">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\IconModel2D.ico">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\IconModelBREP.ico">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\IconModelCSG.ico">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\IconOptimization.ico">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\IconRefer.ico">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Refer.ico">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Config_Cues.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Config_Features.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_CSG.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Detection.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Display_CSG.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_DisplayCues.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_DisplayFeatures.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_DisplayInflation.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_DisplaySketch2D.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Edition2D.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Inflation.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Inflation_Evolution.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Main.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_ModelBrep.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Modes2D.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Optimization.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Reconstruction.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Refine2D.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Refine3D.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Tessellate3D.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Vectorize2D.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+    <Image Include="Res\Toolbar_Windows.bmp">
+      <Filter>Resource files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\CursorArrow.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorErase.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorHandClosed.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorHandOpen.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorLine.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorPan.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorPencil.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorPick.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorSelect.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorSelectPlusMinus.cur">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="Res\CursorZoom.cur">
+      <Filter>Resource files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Refer.rc">
+      <Filter>Resource files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,652 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}</ProjectGuid>
+    <RootNamespace>Refer</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v145</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>NotSet</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.25431.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>
+ %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(RootDir)%(Directory)include;%(RootDir)%(Directory)include\GL;%(RootDir)%(Directory)include\CALI;c:\windows\system32;%(RootDir)%(Directory)ManagedWrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Windows\Microsoft.NET\assembly;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <ProgramDataBaseFileName>$(IntDir)vc90.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0c0a</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/VERBOSE:LIB comctl32.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>$(ProjectDir)lib\freeglut.lib;$(ProjectDir)lib\Recognizer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <SubSystem>Windows</SubSystem>
+      <NoEntryPoint>false</NoEntryPoint>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>
+ %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>%(RootDir)%(Directory)include;%(RootDir)%(Directory)include\GL;%(RootDir)%(Directory)include\CALI;c:\windows\system32;%(RootDir)%(Directory)ManagedWrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Windows\Microsoft.NET\assembly;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(IntDir)vc90.pdb</ProgramDataBaseFileName>
+      <BrowseInformation>true</BrowseInformation>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0c0a</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/VERBOSE:LIB comctl32.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>$(ProjectDir)lib\freeglut.lib;$(ProjectDir)lib\Recognizer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <SubSystem>Windows</SubSystem>
+      <NoEntryPoint>false</NoEntryPoint>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(RootDir)%(Directory)include;%(RootDir)%(Directory)include\GL;%(RootDir)%(Directory)include\CALI;c:\windows\system32;%(RootDir)%(Directory)ManagedWrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:msvcrtd.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>$(ProjectDir)lib\freeglut.lib;$(ProjectDir)lib\Recognizer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>%(RootDir)%(Directory)include;%(RootDir)%(Directory)include\GL;%(RootDir)%(Directory)include\CALI;c:\windows\system32;%(RootDir)%(Directory)ManagedWrapper;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0809</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:msvcrtd.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>$(ProjectDir)lib\freeglut.lib;$(ProjectDir)lib\Recognizer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CSG_Deconstruct.cpp" />
+    <ClCompile Include="CSG_Maths.cpp" />
+    <ClCompile Include="CSG_Modeling.cpp" />
+    <ClCompile Include="CueFaces.cpp" />
+    <ClCompile Include="CueFacesCB.cpp" />
+    <ClCompile Include="CueFacesSL.cpp" />
+    <ClCompile Include="CueFacesSL_Optimization_Rb.cpp" />
+    <ClCompile Include="CueFacesVarley.cpp" />
+    <ClCompile Include="CueFacesV_Geometry.cpp" />
+    <ClCompile Include="CueFacesV_Nuts.cpp" />
+    <ClCompile Include="CueHiddenEdges.cpp" />
+    <ClCompile Include="CueLabels.cpp" />
+    <ClCompile Include="CueLabelsVarley.cpp" />
+    <ClCompile Include="CueLabelsVarley_Combinatorially.cpp" />
+    <ClCompile Include="CueLabelsVarley_IdentifyJunctionAngles.cpp" />
+    <ClCompile Include="CueLabelsVarley_InitialiseJunctionLabels.cpp" />
+    <ClCompile Include="CueLabelsVarley_JunctionToLines.cpp" />
+    <ClCompile Include="CueLabelsVarley_LabelJunctions.cpp" />
+    <ClCompile Include="CueLabelsVarley_LabelLines.cpp" />
+    <ClCompile Include="CueLabelsVarley_LabellingConstants.cpp" />
+    <ClCompile Include="CueLabelsVarley_LabellingParameters.cpp" />
+    <ClCompile Include="CueLabelsVarley_Lamban.cpp" />
+    <ClCompile Include="CueLabelsVarley_LineEquations.cpp" />
+    <ClCompile Include="CueLabelsVarley_LineToJunctions.cpp" />
+    <ClCompile Include="CueLabelsVarley_Maths.cpp" />
+    <ClCompile Include="CueLabelsVarley_Object.cpp" />
+    <ClCompile Include="CueLabelsVarley_Relaxation.cpp" />
+    <ClCompile Include="CueLevels.cpp" />
+    <ClCompile Include="CueMainAxes.cpp" />
+    <ClCompile Include="CueManager.cpp" />
+    <ClCompile Include="CueParallelEdges.cpp" />
+    <ClCompile Include="CuePerimeter.cpp" />
+    <ClCompile Include="CueSubGraphs.cpp" />
+    <ClCompile Include="CueSymmetry.cpp" />
+    <ClCompile Include="CueTypology.cpp" />
+    <ClCompile Include="CueValences.cpp" />
+    <ClCompile Include="CueVanishingPoints.cpp" />
+    <ClCompile Include="DataAxonometric.cpp" />
+    <ClCompile Include="DataChamfersAndRounds.cpp" />
+    <ClCompile Include="DataCSG.cpp" />
+    <ClCompile Include="DataCues.cpp" />
+    <ClCompile Include="DataDirectInflation.cpp" />
+    <ClCompile Include="DataFaces.cpp" />
+    <ClCompile Include="DataFeatures.cpp" />
+    <ClCompile Include="DataHiddenEdges.cpp" />
+    <ClCompile Include="DataInflation.cpp" />
+    <ClCompile Include="DataLabels.cpp" />
+    <ClCompile Include="DataLevels.cpp" />
+    <ClCompile Include="DataMainAxes.cpp" />
+    <ClCompile Include="DataOptHC.cpp" />
+    <ClCompile Include="DataOptSA.cpp" />
+    <ClCompile Include="DataOptSAM.cpp" />
+    <ClCompile Include="DataParallelEdges.cpp" />
+    <ClCompile Include="DataPerimeter.cpp" />
+    <ClCompile Include="DataRailsAndSlots.cpp" />
+    <ClCompile Include="DataRefer.cpp" />
+    <ClCompile Include="DataRefine2D.cpp" />
+    <ClCompile Include="DataRefine3D.cpp" />
+    <ClCompile Include="DataRibsAndDividers.cpp" />
+    <ClCompile Include="DataStepsAndPockets.cpp" />
+    <ClCompile Include="DataSubGraphs.cpp" />
+    <ClCompile Include="DataSymmetry.cpp" />
+    <ClCompile Include="DataTessellate3D.cpp" />
+    <ClCompile Include="DataTypology.cpp" />
+    <ClCompile Include="DataValences.cpp" />
+    <ClCompile Include="DataVanishingPoints.cpp" />
+    <ClCompile Include="DataVectorize.cpp" />
+    <ClCompile Include="DB_CSG.cpp" />
+    <ClCompile Include="DB_Model.cpp" />
+    <ClCompile Include="DB_Model_Maths.cpp" />
+    <ClCompile Include="DB_Sketch.cpp" />
+    <ClCompile Include="DetectionManager.cpp" />
+    <ClCompile Include="DialogConfigCSG.cpp" />
+    <ClCompile Include="DialogConfigCues.cpp" />
+    <ClCompile Include="DialogConfigDetectCuesFeatures.cpp" />
+    <ClCompile Include="DialogConfigDirectInflation.cpp" />
+    <ClCompile Include="DialogConfigDisplayCSG.cpp" />
+    <ClCompile Include="DialogConfigDisplayFeatures.cpp" />
+    <ClCompile Include="DialogConfigFeatures.cpp" />
+    <ClCompile Include="DialogConfigInflation.cpp" />
+    <ClCompile Include="DialogConfigOptimizationInflation.cpp" />
+    <ClCompile Include="DialogConfigRefine2D.cpp" />
+    <ClCompile Include="DialogConfigRefine3D.cpp" />
+    <ClCompile Include="DialogConfigTessellate3D.cpp" />
+    <ClCompile Include="DialogConfigVectorize2D.cpp" />
+    <ClCompile Include="DialogDetailsChamfersAndRounds.cpp" />
+    <ClCompile Include="DialogDetailsFaces.cpp" />
+    <ClCompile Include="DialogDetailsGroupNonSolidStrokes.cpp" />
+    <ClCompile Include="DialogDetailsGroupOvertracedStrokes.cpp" />
+    <ClCompile Include="DialogDetailsHiddenEdges.cpp" />
+    <ClCompile Include="DialogDetailsHillClimbing.cpp" />
+    <ClCompile Include="DialogDetailsInflation.cpp" />
+    <ClCompile Include="DialogDetailsLabels.cpp" />
+    <ClCompile Include="DialogDetailsLevels.cpp" />
+    <ClCompile Include="DialogDetailsLevelsHidden.cpp" />
+    <ClCompile Include="DialogDetailsMainAxes.cpp" />
+    <ClCompile Include="DialogDetailsMergeVertices.cpp" />
+    <ClCompile Include="DialogDetailsParallelEdges.cpp" />
+    <ClCompile Include="DialogDetailsPerimeter.cpp" />
+    <ClCompile Include="DialogDetailsPreInflateAutomatic.cpp" />
+    <ClCompile Include="DialogDetailsPreInflateAxonometric.cpp" />
+    <ClCompile Include="DialogDetailsRailsAndSlots.cpp" />
+    <ClCompile Include="DialogDetailsRegularitiesCost.cpp" />
+    <ClCompile Include="DialogDetailsRegularitiesNature.cpp" />
+    <ClCompile Include="DialogDetailsRegularitiesUser.cpp" />
+    <ClCompile Include="DialogDetailsRibsAndDividers.cpp" />
+    <ClCompile Include="DialogDetailsSimulatedAnnealing.cpp">
+      <AdditionalUsingDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Windows\Microsoft.NET;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+      <AdditionalUsingDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Windows\Microsoft.NET;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
+    </ClCompile>
+    <ClCompile Include="DialogDetailsSimulatedAnnealingMulti.cpp" />
+    <ClCompile Include="DialogDetailsStepsAndPockets.cpp" />
+    <ClCompile Include="DialogDetailsStrokeVectorize.cpp" />
+    <ClCompile Include="DialogDetailsSubGraphs.cpp" />
+    <ClCompile Include="DialogDetailsSymmetry.cpp" />
+    <ClCompile Include="DialogDetailsTypology.cpp" />
+    <ClCompile Include="DialogDetailsValences.cpp" />
+    <ClCompile Include="DialogDetailsVanishingPoints.cpp" />
+    <ClCompile Include="DialogDistortDrawing.cpp" />
+    <ClCompile Include="DialogEraseStrokesTools.cpp" />
+    <ClCompile Include="DialogFilterStroke.cpp" />
+    <ClCompile Include="DialogHiddenEdges.cpp" />
+    <ClCompile Include="DialogHillClimbingPreConfig.cpp" />
+    <ClCompile Include="DialogLabelsFont.cpp" />
+    <ClCompile Include="DialogMainAxesManual.cpp" />
+    <ClCompile Include="DialogMainAxesRules.cpp" />
+    <ClCompile Include="DialogOptimizationConfig.cpp" />
+    <ClCompile Include="DialogOptimizationIsolines.cpp" />
+    <ClCompile Include="DialogOptimizationPan.cpp" />
+    <ClCompile Include="DialogPreviousNext.cpp" />
+    <ClCompile Include="DialogPreviousNextCSG.cpp" />
+    <ClCompile Include="DialogProgress.cpp" />
+    <ClCompile Include="DialogRegularities2D.cpp" />
+    <ClCompile Include="DialogRotateAngle.cpp" />
+    <ClCompile Include="DialogScaleStroke.cpp" />
+    <ClCompile Include="DialogSelectTree.cpp" />
+    <ClCompile Include="DialogSettingsRefer.cpp" />
+    <ClCompile Include="DialogToolsDisplayStrokes.cpp" />
+    <ClCompile Include="DirectInflation.cpp" />
+    <ClCompile Include="FeatureManager.cpp" />
+    <ClCompile Include="FeatureRailsAndSlots.cpp" />
+    <ClCompile Include="FeatureRibsAndDividers.cpp" />
+    <ClCompile Include="FeatureStepsAndPockets.cpp" />
+    <ClCompile Include="Gestures.cpp" />
+    <ClCompile Include="InflationAxonometric.cpp" />
+    <ClCompile Include="InflationLevels.cpp" />
+    <ClCompile Include="InOutCSG.cpp" />
+    <ClCompile Include="InOutDXF.cpp" />
+    <ClCompile Include="InOutIGES.cpp" />
+    <ClCompile Include="InOutOBJ.cpp" />
+    <ClCompile Include="InOutRibald.cpp" />
+    <ClCompile Include="InOutSketch.cpp" />
+    <ClCompile Include="InOutSTEP.cpp" />
+    <ClCompile Include="InOutSTL.cpp" />
+    <ClCompile Include="OptimizationBasedInflation.cpp" />
+    <ClCompile Include="OptimizationCost.cpp" />
+    <ClCompile Include="OptimizationFlow.cpp" />
+    <ClCompile Include="ReconstructionManager.cpp" />
+    <ClCompile Include="Refer.cpp" />
+    <ClCompile Include="ReferDoc.cpp" />
+    <ClCompile Include="Refine2D.cpp" />
+    <ClCompile Include="Refine3D.cpp" />
+    <ClCompile Include="StrokeCornerFinder.cpp" />
+    <ClCompile Include="Tesellate3D.cpp" />
+    <ClCompile Include="Tools_Geometry.cpp" />
+    <ClCompile Include="Tools_Matrix.cpp" />
+    <ClCompile Include="Tools_Vector.cpp" />
+    <ClCompile Include="Vectorization.cpp" />
+    <ClCompile Include="WinRf_FrameModelBrep.cpp" />
+    <ClCompile Include="WinRf_FrameModelCSG.cpp" />
+    <ClCompile Include="WinRf_FrameOptimization.cpp" />
+    <ClCompile Include="WinRf_FrameSketch2D.cpp" />
+    <ClCompile Include="WinRf_GDI_Transform.cpp" />
+    <ClCompile Include="WinRf_MainFrame.cpp" />
+    <ClCompile Include="WinRf_OpenGDDevice.cpp" />
+    <ClCompile Include="WinRf_OpenGLViewInflation.cpp" />
+    <ClCompile Include="WinRf_OpenGLViewModelBrep.cpp" />
+    <ClCompile Include="WinRf_OpenGLViewModelCSG.cpp" />
+    <ClCompile Include="WinRf_TrackBall.cpp" />
+    <ClCompile Include="WinRf_ViewModelBrep.cpp" />
+    <ClCompile Include="WinRf_ViewModelCSG.cpp" />
+    <ClCompile Include="WinRf_ViewOptimization.cpp" />
+    <ClCompile Include="WinRf_ViewSketch2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CSG_Deconstruct.h" />
+    <ClInclude Include="include\CSG_Maths.h" />
+    <ClInclude Include="include\CSG_Modeling.h" />
+    <ClInclude Include="include\CueFaces.h" />
+    <ClInclude Include="include\CueFacesCB.h" />
+    <ClInclude Include="include\CueFacesSL.h" />
+    <ClInclude Include="include\CueFacesSL_Optimization_Rb.h" />
+    <ClInclude Include="include\CueFacesVarley.h" />
+    <ClInclude Include="include\CueFacesV_Geometry.h" />
+    <ClInclude Include="include\CueFacesV_Nuts.h" />
+    <ClInclude Include="include\CueHiddenEdges.h" />
+    <ClInclude Include="include\CueLabels.h" />
+    <ClInclude Include="include\CueLabelsVarley.h" />
+    <ClInclude Include="include\CueLabelsVarley_Combinatorially.h" />
+    <ClInclude Include="include\CueLabelsVarley_Constants.h" />
+    <ClInclude Include="include\CueLabelsVarley_IdentifyJunctionAngles.h" />
+    <ClInclude Include="include\CueLabelsVarley_InitialiseJunctionLabels.h" />
+    <ClInclude Include="include\CueLabelsVarley_JunctionToLines.h" />
+    <ClInclude Include="include\CueLabelsVarley_LabelJunctions.h" />
+    <ClInclude Include="include\CueLabelsVarley_LabelLines.h" />
+    <ClInclude Include="include\CueLabelsVarley_LabellingConstants.h" />
+    <ClInclude Include="include\CueLabelsVarley_LabellingParameters.h" />
+    <ClInclude Include="include\CueLabelsVarley_Lamban.h" />
+    <ClInclude Include="include\CueLabelsVarley_LineToJunctions.h" />
+    <ClInclude Include="include\CueLabelsVarley_Maths.h" />
+    <ClInclude Include="include\CueLabelsVarley_Object.h" />
+    <ClInclude Include="include\CueLabelsVarley_Relaxation.h" />
+    <ClInclude Include="include\CueLabelsVarley_Types.h" />
+    <ClInclude Include="include\CueLevels.h" />
+    <ClInclude Include="include\CueMainAxes.h" />
+    <ClInclude Include="include\CueManager.h" />
+    <ClInclude Include="include\CueParallelEdges.h" />
+    <ClInclude Include="include\CuePerimeter.h" />
+    <ClInclude Include="include\CueSubGraphs.h" />
+    <ClInclude Include="include\CueSymmetry.h" />
+    <ClInclude Include="include\CueTypology.h" />
+    <ClInclude Include="include\CueValences.h" />
+    <ClInclude Include="include\CueVanishingPoints.h" />
+    <ClInclude Include="include\DataAxonometric.h" />
+    <ClInclude Include="include\DataChamfersAndRounds.h" />
+    <ClInclude Include="include\DataCSG.h" />
+    <ClInclude Include="include\DataCues.h" />
+    <ClInclude Include="include\DataDirectInflation.h" />
+    <ClInclude Include="include\DataFaces.h" />
+    <ClInclude Include="include\DataFeatures.h" />
+    <ClInclude Include="include\DataHiddenEdges.h" />
+    <ClInclude Include="include\DataInflation.h" />
+    <ClInclude Include="include\DataLabels.h" />
+    <ClInclude Include="include\DataLevels.h" />
+    <ClInclude Include="include\DataMainAxes.h" />
+    <ClInclude Include="include\DataOptHC.h" />
+    <ClInclude Include="include\DataOptSA.h" />
+    <ClInclude Include="include\DataOptSAM.h" />
+    <ClInclude Include="include\DataParallelEdges.h" />
+    <ClInclude Include="include\DataPerimeter.h" />
+    <ClInclude Include="include\DataRailsAndSlots.h" />
+    <ClInclude Include="include\DataRefer.h" />
+    <ClInclude Include="include\DataRefine2D.h" />
+    <ClInclude Include="include\DataRefine3D.h" />
+    <ClInclude Include="include\DataRibsAndDividers.h" />
+    <ClInclude Include="include\DataStepsAndPockets.h" />
+    <ClInclude Include="include\DataSubGraphs.h" />
+    <ClInclude Include="include\DataSymmetry.h" />
+    <ClInclude Include="include\DataTessellate3D.h" />
+    <ClInclude Include="include\DataTypology.h" />
+    <ClInclude Include="include\DataValences.h" />
+    <ClInclude Include="include\DataVanishingPoints.h" />
+    <ClInclude Include="include\DataVectorize.h" />
+    <ClInclude Include="include\DB_CSG.h" />
+    <ClInclude Include="include\DB_Model.h" />
+    <ClInclude Include="include\DB_Model_Maths.h" />
+    <ClInclude Include="include\DB_Sketch.h" />
+    <ClInclude Include="include\DetectionManager.h" />
+    <ClInclude Include="include\DialogConfigCSG.h" />
+    <ClInclude Include="include\DialogConfigCues.h" />
+    <ClInclude Include="include\DialogConfigDetectCuesFeatures.h" />
+    <ClInclude Include="include\DialogConfigDirectInflation.h" />
+    <ClInclude Include="include\DialogConfigDisplayCSG.h" />
+    <ClInclude Include="include\DialogConfigDisplayFeatures.h" />
+    <ClInclude Include="include\DialogConfigFeatures.h" />
+    <ClInclude Include="include\DialogConfigOptimizationInflation.h" />
+    <ClInclude Include="include\DialogConfigRefine2D.h" />
+    <ClInclude Include="include\DialogConfigRefine3D.h" />
+    <ClInclude Include="include\DialogConfigTessellate3D.h" />
+    <ClInclude Include="include\DialogConfigVectorize2D.h" />
+    <ClInclude Include="include\DialogDetailsChamfersAndRounds.h" />
+    <ClInclude Include="include\DialogDetailsFaces.h" />
+    <ClInclude Include="include\DialogDetailsGroupNonSolidStrokes.h" />
+    <ClInclude Include="include\DialogDetailsGroupOvertracedStrokes.h" />
+    <ClInclude Include="include\DialogDetailsHiddenEdges.h" />
+    <ClInclude Include="include\DialogDetailsHillClimbing.h" />
+    <ClInclude Include="include\DialogDetailsInflation.h" />
+    <ClInclude Include="include\DialogDetailsLabels.h" />
+    <ClInclude Include="include\DialogDetailsLevels.h" />
+    <ClInclude Include="include\DialogDetailsLevelsHidden.h" />
+    <ClInclude Include="include\DialogDetailsMainAxes.h" />
+    <ClInclude Include="include\DialogDetailsMergeVertices.h" />
+    <ClInclude Include="include\DialogDetailsParallelEdges.h" />
+    <ClInclude Include="include\DialogDetailsPerimeter.h" />
+    <ClInclude Include="include\DialogDetailsPreInflateAutomatic.h" />
+    <ClInclude Include="include\DialogDetailsPreInflateAxonometric.h" />
+    <ClInclude Include="include\DialogDetailsRailsAndSlots.h" />
+    <ClInclude Include="include\DialogDetailsRegularitiesCost.h" />
+    <ClInclude Include="include\DialogDetailsRegularitiesNature.h" />
+    <ClInclude Include="include\DialogDetailsRegularitiesUser.h" />
+    <ClInclude Include="include\DialogDetailsRibsAndDividers.h" />
+    <ClInclude Include="include\DialogDetailsSimulatedAnnealing.h" />
+    <ClInclude Include="include\DialogDetailsSimulatedAnnealingMulti.h" />
+    <ClInclude Include="include\DialogDetailsStepsAndPockets.h" />
+    <ClInclude Include="include\DialogDetailsStrokeVectorize.h" />
+    <ClInclude Include="include\DialogDetailsSubGraphs.h" />
+    <ClInclude Include="include\DialogDetailsSymmetry.h" />
+    <ClInclude Include="include\DialogDetailsTypology.h" />
+    <ClInclude Include="include\DialogDetailsValences.h" />
+    <ClInclude Include="include\DialogDetailsVanishingPoints.h" />
+    <ClInclude Include="include\DialogDistortDrawing.h" />
+    <ClInclude Include="include\DialogEraseStrokesTools.h" />
+    <ClInclude Include="include\DialogFilterStroke.h" />
+    <ClInclude Include="include\DialogHiddenEdges.h" />
+    <ClInclude Include="include\DialogHillClimbingPreConfig.h" />
+    <ClInclude Include="include\DialogLabelsFont.h" />
+    <ClInclude Include="include\DialogMainAxesManual.h" />
+    <ClInclude Include="include\DialogMainAxesRules.h" />
+    <ClInclude Include="include\DialogOptimizationConfig.h" />
+    <ClInclude Include="include\DialogOptimizationIsolines.h" />
+    <ClInclude Include="include\DialogOptimizationPan.h" />
+    <ClInclude Include="include\DialogPreviousNext.h" />
+    <ClInclude Include="include\DialogPreviousNextCSG.h" />
+    <ClInclude Include="include\DialogProgress.h" />
+    <ClInclude Include="include\DialogRegularities2D.h" />
+    <ClInclude Include="include\DialogRotateAngle.h" />
+    <ClInclude Include="include\DialogScaleStroke.h" />
+    <ClInclude Include="include\DialogSelectTree.h" />
+    <ClInclude Include="include\DialogSettingsRefer.h" />
+    <ClInclude Include="include\DialogToleranciasSnapAristas.h" />
+    <ClInclude Include="include\DialogToolsDisplayStrokes.h" />
+    <ClInclude Include="include\DirectInflation.h" />
+    <ClInclude Include="include\FeatureRailsAndSlots.h" />
+    <ClInclude Include="include\FeatureRibsAndDividers.h" />
+    <ClInclude Include="include\FeatureStepsAndPockets.h" />
+    <ClInclude Include="include\Gestures.h" />
+    <ClInclude Include="include\include CALI\CIRecognizer.h" />
+    <ClInclude Include="include\InflationAxonometric.h" />
+    <ClInclude Include="include\InflationLevels.h" />
+    <ClInclude Include="include\InOutCSG.h" />
+    <ClInclude Include="include\InOutDXF.h" />
+    <ClInclude Include="include\InOutIGES.h" />
+    <ClInclude Include="include\InOutOBJ.h" />
+    <ClInclude Include="include\InOutRibald.h" />
+    <ClInclude Include="include\InOutSketch.h" />
+    <ClInclude Include="include\InOutSTEP.h" />
+    <ClInclude Include="include\InOutSTL.h" />
+    <ClInclude Include="include\OptimizationBasedInflation.h" />
+    <ClInclude Include="include\OptimizationCost.h" />
+    <ClInclude Include="include\OptimizationFlow.h" />
+    <ClInclude Include="include\ReconstructionManager.h" />
+    <ClInclude Include="include\Refer.h" />
+    <ClInclude Include="include\ReferDoc.h" />
+    <ClInclude Include="include\Refine2D.h" />
+    <ClInclude Include="include\Refine3D.h" />
+    <ClInclude Include="include\StdAfx.h" />
+    <ClInclude Include="include\StrokeCornerFinder.h" />
+    <ClInclude Include="include\Tessellate3D.h" />
+    <ClInclude Include="include\Tools_Geometry.h" />
+    <ClInclude Include="include\Tools_Matrix.h" />
+    <ClInclude Include="include\Tools_Vector.h" />
+    <ClInclude Include="include\Vectorization.h" />
+    <ClInclude Include="include\WinRf_FrameModelBrep.h" />
+    <ClInclude Include="include\WinRf_FrameModelCSG.h" />
+    <ClInclude Include="include\WinRf_FrameOptimization.h" />
+    <ClInclude Include="include\WinRf_FrameSketch2D.h" />
+    <ClInclude Include="include\WinRf_GDI_Transform.h" />
+    <ClInclude Include="include\WinRf_MainFrame.h" />
+    <ClInclude Include="include\WinRf_OpenGLDevice.h" />
+    <ClInclude Include="include\WinRf_OpenGLViewInflation.h" />
+    <ClInclude Include="include\WinRf_OpenGLViewModelBrep.h" />
+    <ClInclude Include="include\WinRf_OpenGLViewModelCSG.h" />
+    <ClInclude Include="include\WinRf_TrackBall.h" />
+    <ClInclude Include="include\WinRf_ViewModelBrep.h" />
+    <ClInclude Include="include\WinRf_ViewModelCSG.h" />
+    <ClInclude Include="include\WinRf_ViewOptimization.h" />
+    <ClInclude Include="include\WinRf_ViewOptimization_Graphics.h" />
+    <ClInclude Include="include\WinRf_ViewSketch2D.h" />
+    <ClInclude Include="InOutSTEP.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Res\bmpLevel00.bmp" />
+    <Image Include="Res\bmpLevel00o.bmp" />
+    <Image Include="Res\bmpLevel01.bmp" />
+    <Image Include="Res\bmpLevel01o.bmp" />
+    <Image Include="Res\bmpLevel02.bmp" />
+    <Image Include="Res\bmpLevel02o.bmp" />
+    <Image Include="Res\bmpLevel03.bmp" />
+    <Image Include="Res\bmpLevel03o.bmp" />
+    <Image Include="Res\bmpLevel04.bmp" />
+    <Image Include="Res\bmpLevel04o.bmp" />
+    <Image Include="Res\bmpLevel05.bmp" />
+    <Image Include="Res\bmpLevel05o.bmp" />
+    <Image Include="Res\bmpLevel06o.bmp" />
+    <Image Include="Res\bmpLevel07o.bmp" />
+    <Image Include="Res\bmpLevel08o.bmp" />
+    <Image Include="Res\bmpLevel09o.bmp" />
+    <Image Include="Res\bmpLevel10o.bmp" />
+    <Image Include="Res\bmpLevel11o.bmp" />
+    <Image Include="Res\bmpOneVariable.bmp" />
+    <Image Include="Res\bmpSuperior.bmp" />
+    <Image Include="Res\bmpTwoVariables.bmp" />
+    <Image Include="Res\IconInflation.ico" />
+    <Image Include="Res\IconModel2D.ico" />
+    <Image Include="Res\IconModelBREP.ico" />
+    <Image Include="Res\IconModelCSG.ico" />
+    <Image Include="Res\IconOptimization.ico" />
+    <Image Include="Res\IconRefer.ico" />
+    <Image Include="Res\Refer.ico" />
+    <Image Include="Res\Toolbar_Config_Cues.bmp" />
+    <Image Include="Res\Toolbar_Config_Features.bmp" />
+    <Image Include="Res\Toolbar_CSG.bmp" />
+    <Image Include="Res\Toolbar_Detection.bmp" />
+    <Image Include="Res\Toolbar_DisplayCues.bmp" />
+    <Image Include="Res\Toolbar_DisplayFeatures.bmp" />
+    <Image Include="Res\Toolbar_DisplayInflation.bmp" />
+    <Image Include="Res\Toolbar_DisplaySketch2D.bmp" />
+    <Image Include="Res\Toolbar_Display_CSG.bmp" />
+    <Image Include="Res\Toolbar_Edition2D.bmp" />
+    <Image Include="Res\Toolbar_Inflation.bmp" />
+    <Image Include="Res\Toolbar_Inflation_Evolution.bmp" />
+    <Image Include="Res\Toolbar_Main.bmp" />
+    <Image Include="Res\Toolbar_ModelBrep.bmp" />
+    <Image Include="Res\Toolbar_Modes2D.bmp" />
+    <Image Include="Res\Toolbar_Optimization.bmp" />
+    <Image Include="Res\Toolbar_Reconstruction.bmp" />
+    <Image Include="Res\Toolbar_Refine2D.bmp" />
+    <Image Include="Res\Toolbar_Refine3D.bmp" />
+    <Image Include="Res\Toolbar_Tessellate3D.bmp" />
+    <Image Include="Res\Toolbar_Vectorize2D.bmp" />
+    <Image Include="Res\Toolbar_Windows.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\CursorArrow.cur" />
+    <None Include="Res\CursorErase.cur" />
+    <None Include="Res\CursorHandClosed.cur" />
+    <None Include="Res\CursorHandOpen.cur" />
+    <None Include="Res\CursorLine.cur" />
+    <None Include="Res\CursorPan.cur" />
+    <None Include="Res\CursorPencil.cur" />
+    <None Include="Res\CursorPick.cur" />
+    <None Include="Res\CursorSelect.cur" />
+    <None Include="Res\CursorSelectPlusMinus.cur" />
+    <None Include="Res\CursorZoom.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Refer.rc">
+      <Culture Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">0x0409</Culture>
+      <Culture Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">0x0409</Culture>
+    </ResourceCompile>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Refer.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,36 @@
+Comment Non-trihedral Non-axis-aligned Junction
+Vertex 0: 0.000000,251.253121 D:0 
+Vertex 1: 0.000000,606.381208 D:0 
+Vertex 2: 461.222602,872.727273 D:1 
+Vertex 3: 461.222602,606.381208 D:2 
+Vertex 4: 115.416628,406.621659 D:3 
+Vertex 5: 115.416628,317.839637 D:4 
+Vertex 6: 241.043189,192.213077 D:6 
+Vertex 7: 482.086378,133.173032 D:7 
+Vertex 8: 251.253121,0.000000 D:8 
+Vertex 9: 586.849163,747.100712 D:10 
+Vertex 10: 586.849163,480.754647 D:11 
+Vertex 11: 356.015907,347.581615 D:13 
+Vertex 12: 241.043189,280.995098 D:14 
+Vertex 13: 482.086378,420.314579 D:16  Intercept 13
+Vertex 14: 482.086378,221.955054 D:17  Intercept 16
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V0
+Line 6: V5 to V6
+Line 7: V6 to V7
+Line 8: V7 to V8
+Line 9: V8 to V0
+Line 10: V2 to V9
+Line 11: V3 to V10
+Line 12: V9 to V10
+Line 13: V10 to V11
+Line 14: V4 to V12
+Line 15: V6 to V12
+Line 16: V7 to V13
+Line 17: V11 to V14
+Line 18: V12 to V14
+End

@@ -1,0 +1,44 @@
+Comment Truncated Octahedron
+Vertex 0: 708.349515,55.922330 D:0 
+Vertex 1: 899.417476,279.611650 D:0 
+Vertex 2: 820.194175,549.902913 D:1 
+Vertex 3: 554.563107,624.466019 D:2 
+Vertex 4: 358.834951,396.116505 D:3 
+Vertex 5: 452.038835,130.485437 D:4 
+Vertex 6: 139.805825,568.543689 D:6 
+Vertex 7: 321.553398,801.553398 D:7 
+Vertex 8: 0.000000,517.281553 D:9 
+Vertex 9: 18.640777,647.766990 D:10 
+Vertex 10: 205.048544,899.417476 D:11 
+Vertex 11: 330.873786,960.000000 D:12 
+Vertex 12: 97.864078,181.747573 D:14 
+Vertex 13: 307.572816,60.582524 D:15 
+Vertex 14: 605.825243,0.000000 D:17 
+Vertex 15: 661.747573,894.757282 D:19 
+Vertex 16: 880.776699,671.067961 D:20 
+Vertex 17: 960.000000,447.378641 D:22 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V0
+Line 6: V4 to V6
+Line 7: V6 to V7
+Line 8: V7 to V3
+Line 9: V6 to V8
+Line 10: V8 to V9
+Line 11: V9 to V10
+Line 12: V10 to V11
+Line 13: V11 to V7
+Line 14: V8 to V12
+Line 15: V12 to V13
+Line 16: V13 to V5
+Line 17: V0 to V14
+Line 18: V14 to V13
+Line 19: V11 to V15
+Line 20: V15 to V16
+Line 21: V16 to V2
+Line 22: V1 to V17
+Line 23: V17 to V16
+End

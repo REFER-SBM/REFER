@@ -1,0 +1,12 @@
+Comment Tetrahedron
+Vertex 0: 0.000000,465.210084 D:0 
+Vertex 1: 830.924370,0.000000 D:0 
+Vertex 2: 933.109244,960.000000 D:1 
+Vertex 3: 605.042017,516.302521 D:3 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V0
+Line 3: V0 to V3
+Line 4: V3 to V1
+Line 5: V3 to V2
+End

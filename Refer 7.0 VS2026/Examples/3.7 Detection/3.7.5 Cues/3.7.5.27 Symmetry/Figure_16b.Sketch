@@ -1,0 +1,20 @@
+Vertex 0:      -72.000000,      23.000000 D:   0
+Vertex 1:      113.000000,      47.000000 D:   1
+Vertex 2:      -70.000000,    -176.000000 D:   0
+Vertex 3:       13.000000,    -239.000000 D:   3
+Vertex 4:      194.000000,     -10.000000 D:   4
+Vertex 5:       12.000000,     -26.000000 D:   6
+Line 0: V2 to V0
+Line 1: V0 to V1
+Line 2: V1 to V2
+Line 3: V2 to V3
+Line 4: V3 to V4
+Line 5: V4 to V1
+Line 6: V3 to V5
+Line 7: V5 to V0
+Line 8: V5 to V4
+Face 0: 3 L2 L1 L0
+Face 1: 4 L6 L3 L0 L7
+Face 2: 4 L4 L5 L2 L3
+Face 3: 4 L7 L1 L5 L8
+Face 4: 3 L8 L4 L6

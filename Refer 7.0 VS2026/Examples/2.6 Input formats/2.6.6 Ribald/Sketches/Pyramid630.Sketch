@@ -1,0 +1,36 @@
+Comment from Whitely
+Vertex 0: 356.814160,0.000000 D:0 
+Vertex 1: 781.592921,178.407079 D:0 
+Vertex 2: 792.212389,705.132743 D:1 
+Vertex 3: 373.805310,960.000000 D:2 
+Vertex 4: 4.247788,747.610620 D:3 
+Vertex 5: 0.000000,206.017699 D:4 
+Vertex 6: 384.424778,240.000000 D:6 
+Vertex 7: 630.796460,344.070797 D:7 
+Vertex 8: 624.424778,652.035398 D:8 
+Vertex 9: 378.053098,800.707964 D:9 
+Vertex 10: 140.176991,658.407079 D:10 
+Vertex 11: 152.920354,320.707964 D:11 
+Vertex 12: 380.176991,499.115045 D:18 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V0
+Line 6: V0 to V6
+Line 7: V6 to V7
+Line 8: V7 to V8
+Line 9: V8 to V9
+Line 10: V9 to V10
+Line 11: V10 to V11
+Line 12: V11 to V6
+Line 13: V7 to V1
+Line 14: V8 to V2
+Line 15: V9 to V3
+Line 16: V10 to V4
+Line 17: V5 to V11
+Line 18: V6 to V12
+Line 19: V12 to V8
+Line 20: V12 to V10
+End

@@ -1,0 +1,24 @@
+Comment Convex Quadrilateral Pyramid with Tower
+Vertex 0: 0.000000,490.909091 D:0 
+Vertex 1: 436.363636,272.727273 D:0 
+Vertex 2: 872.727273,490.909091 D:1 
+Vertex 3: 436.363636,709.090909 D:2 
+Vertex 4: 818.181818,436.363636 D:4 
+Vertex 5: 872.727273,163.636364 D:5 
+Vertex 6: 545.454545,0.000000 D:6 
+Vertex 7: 490.909091,272.727273 D:7 
+Vertex 8: 218.181818,163.636364 D:10 
+Vertex 9: 169.696970,406.060606 D:11  Intercept 0
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V0
+Line 4: V2 to V4
+Line 5: V4 to V5
+Line 6: V5 to V6
+Line 7: V6 to V7
+Line 8: V7 to V4
+Line 9: V7 to V1
+Line 10: V6 to V8
+Line 11: V8 to V9
+End

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11716.220 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Recognizer", "Recognizer.vcxproj", "{4DD37EB4-F705-496C-B863-2F14503C43D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DD37EB4-F705-496C-B863-2F14503C43D2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4DD37EB4-F705-496C-B863-2F14503C43D2}.Debug|Win32.Build.0 = Debug|Win32
+		{4DD37EB4-F705-496C-B863-2F14503C43D2}.Debug|x64.ActiveCfg = Debug|x64
+		{4DD37EB4-F705-496C-B863-2F14503C43D2}.Debug|x64.Build.0 = Debug|x64
+		{4DD37EB4-F705-496C-B863-2F14503C43D2}.Release|Win32.ActiveCfg = Release|Win32
+		{4DD37EB4-F705-496C-B863-2F14503C43D2}.Release|Win32.Build.0 = Release|Win32
+		{4DD37EB4-F705-496C-B863-2F14503C43D2}.Release|x64.ActiveCfg = Release|x64
+		{4DD37EB4-F705-496C-B863-2F14503C43D2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16753B35-3D78-49AC-B86B-3737601827A7}
+	EndGlobalSection
+EndGlobal

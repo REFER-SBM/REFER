@@ -1,0 +1,42 @@
+Comment Sugihara's Impossible Object
+Vertex 0: 654.614173,0.000000 D:0 
+Vertex 1: 0.000000,377.952756 D:0 
+Vertex 2: 960.000000,305.385827 D:1 
+Vertex 3: 236.922385,722.861642 D:2 
+Vertex 4: 152.692913,638.632171 D:3 
+Vertex 5: 152.692913,530.645669 D:4 
+Vertex 6: 0.000000,701.912261 D:6 
+Vertex 7: 236.922385,938.834646 D:7 
+Vertex 8: 960.000000,521.358830 D:9 
+Vertex 9: 246.209224,476.652418 D:11 
+Vertex 10: 169.754781,400.305962 D:12 
+Vertex 11: 637.444319,130.339708 D:13 
+Vertex 12: 790.137233,283.032621 D:14 
+Vertex 13: 254.092238,592.521935 D:15 
+Vertex 14: 246.209224,584.638920 D:16 
+Vertex 15: 637.444319,346.312711 D:19 
+Vertex 16: 653.216417,362.084808 D:20  Intercept 15
+Vertex 17: 246.209224,572.068681 D:21  Intercept 18
+Line 0: V0 to V1
+Line 1: V0 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V1
+Line 6: V1 to V6
+Line 7: V6 to V7
+Line 8: V7 to V3
+Line 9: V2 to V8
+Line 10: V8 to V7
+Line 11: V5 to V9
+Line 12: V9 to V10
+Line 13: V10 to V11
+Line 14: V11 to V12
+Line 15: V12 to V13
+Line 16: V13 to V14
+Line 17: V14 to V4
+Line 18: V14 to V9
+Line 19: V11 to V15
+Line 20: V15 to V16
+Line 21: V15 to V17
+End

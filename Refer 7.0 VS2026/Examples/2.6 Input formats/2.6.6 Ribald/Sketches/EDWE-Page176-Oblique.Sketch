@@ -1,0 +1,36 @@
+Comment Pickup and Parker p60
+Vertex 0: 0.000000,238.784944 D:0 
+Vertex 1: 0.000000,661.413163 D:0 
+Vertex 2: 443.759630,661.413163 D:1 
+Vertex 3: 443.759630,238.784944 D:2 
+Vertex 4: 682.544574,0.000000 D:4 
+Vertex 5: 872.727273,329.650011 D:5 
+Vertex 6: 872.727273,422.628219 D:6 
+Vertex 7: 782.918776,512.436716 D:7 
+Vertex 8: 592.736077,512.436716 D:8 
+Vertex 9: 592.736077,89.808497 D:10  Intercept 4
+Vertex 10: 782.918776,419.458508 D:11 
+Vertex 11: 111.996478,0.000000 D:14 
+Vertex 12: 22.187982,89.808497 D:15 
+Vertex 13: 212.370680,89.808497 D:16 
+Vertex 14: 22.187982,223.220240 D:18  Intercept 17
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V0
+Line 4: V3 to V4
+Line 5: V4 to V5
+Line 6: V5 to V6
+Line 7: V6 to V7
+Line 8: V7 to V8
+Line 9: V8 to V2
+Line 10: V8 to V9
+Line 11: V9 to V10
+Line 12: V10 to V5
+Line 13: V10 to V7
+Line 14: V4 to V11
+Line 15: V11 to V12
+Line 16: V12 to V13
+Line 17: V13 to V0
+Line 18: V12 to V14
+End

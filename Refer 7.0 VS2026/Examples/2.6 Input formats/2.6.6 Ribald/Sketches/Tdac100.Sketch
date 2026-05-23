@@ -1,0 +1,33 @@
+Comment Non-Trihedral Axis-Aligned Vertex
+Vertex 0: 368.828338,0.000000 D:0 
+Vertex 1: 873.678474,136.021798 D:0 
+Vertex 2: 873.678474,397.602180 D:1 
+Vertex 3: 689.264305,582.016349 D:2 
+Vertex 4: 689.264305,320.435967 D:3 
+Vertex 5: 184.414169,184.414169 D:5 
+Vertex 6: 184.414169,445.994550 D:7 
+Vertex 7: 0.000000,630.408719 D:9 
+Vertex 8: 0.000000,891.989101 D:10 
+Vertex 9: 252.425068,960.000000 D:11 
+Vertex 10: 252.425068,698.419619 D:12 
+Vertex 11: 436.839237,514.005450 D:14  Intercept 8
+Vertex 12: 621.253406,591.171662 D:15 
+Vertex 13: 621.253406,563.692169 D:16  Intercept 8
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V1
+Line 5: V4 to V5
+Line 6: V5 to V0
+Line 7: V5 to V6
+Line 8: V6 to V3
+Line 9: V6 to V7
+Line 10: V7 to V8
+Line 11: V8 to V9
+Line 12: V9 to V10
+Line 13: V10 to V7
+Line 14: V10 to V11
+Line 15: V9 to V12
+Line 16: V12 to V13
+End

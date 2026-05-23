@@ -1,0 +1,28 @@
+Comment I don't handle this sort of thing
+Vertex 0: 0.000000,125.391850 D:0 
+Vertex 1: 0.000000,626.959248 D:0 
+Vertex 2: 218.181818,501.567398 D:1 
+Vertex 3: 218.181818,0.000000 D:2 
+Vertex 4: 448.902821,125.391850 D:4 
+Vertex 5: 448.902821,626.959248 D:5 
+Vertex 6: 654.545455,0.000000 D:8 
+Vertex 7: 872.727273,125.391850 D:9 
+Vertex 8: 872.727273,376.175549 D:10 
+Vertex 9: 654.545455,250.783699 D:11 
+Vertex 10: 448.902821,376.175549 D:13  Intercept 5
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V0
+Line 4: V3 to V4
+Line 5: V4 to V5
+Line 6: V5 to V2
+Line 7: V5 to V1
+Line 8: V4 to V6
+Line 9: V6 to V7
+Line 10: V7 to V8
+Line 11: V8 to V9
+Line 12: V9 to V6
+Line 13: V10 to V8
+Line 14: V9 to V10
+End

@@ -1,0 +1,21 @@
+Vertex 0: 159.214435,521.786330
+Vertex 1: 159.214435,159.214435
+Vertex 2: 535.091435,22.406435
+Vertex 3: 775.877000,263.192000
+Vertex 4: 775.877000,625.763895
+Vertex 5: 400.000000,762.571895
+Vertex 6: 400.000000,400.000000
+Vertex 7: 535.091435,384.978330
+Edge 0: V0 to V1
+Edge 1: V1 to V2
+Edge 2: V2 to V3
+Edge 3: V3 to V4
+Edge 4: V4 to V5
+Edge 5: V5 to V0
+Edge 6: V1 to V6
+Edge 7: V6 to V5
+Edge 8: V6 to V3
+Edge 9: V4 to V7
+Edge 10: V2 to V7
+Edge 11: V0 to V7
+Finish

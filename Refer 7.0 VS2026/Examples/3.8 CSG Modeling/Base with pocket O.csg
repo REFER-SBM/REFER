@@ -1,0 +1,105 @@
+CSG model by REFER 
+   DATUMS 
+      Datum Origins =2
+         Datum Origin Idd       = 0
+            Reference vertex    = 7
+                  O0 [234.966171,390.961625]
+                  Ortho-distances to O0 [  0.000000,  0.000000,  0.000000]
+         Datum Origin Idd       = 1
+            Reference vertex    = 15
+                  O1 [387.253549,430.060037]
+                  Ortho-distances to O0 [-134.885519,111.432082,  0.000000]
+      End Datum Origins
+      Datum Planes =9
+         Datum Plane Idd        = 0
+            Reference subgraph  = 0
+            Reference origin    = 0
+            Plane orientation   = XZ
+            Distance in Y       = 180.974419
+         Datum Plane Idd        = 1
+            Reference subgraph  = 0
+            Reference origin    = 0
+            Plane orientation   = YZ
+            Distance in X       = -227.107392
+         Datum Plane Idd        = 2
+            Reference subgraph  = 1
+            Reference origin    = 1
+            Plane orientation   = YZ
+            Distance in X       = -95.641879
+         Datum Plane Idd        = 3
+            Reference subgraph  = 1
+            Reference origin    = 1
+            Plane orientation   = XZ
+            Distance in Y       =  69.765928
+         Datum Plane Idd        = 4
+            Reference subgraph  = 1
+            Reference origin    = 1
+            Plane orientation   = XY
+            Distance in Z       = -23.820830
+         Datum Plane Idd        = 5
+            Reference subgraph  = 1
+            Reference origin    = 1
+            Plane orientation   = XY
+            Distance in Z       =   0.000000
+         Datum Plane Idd        = 6
+            Reference subgraph  = 1
+            Reference origin    = 1
+            Plane orientation   = XZ
+            Distance in Y       =   0.000000
+         Datum Plane Idd        = 7
+            Reference subgraph  = 1
+            Reference origin    = 1
+            Plane orientation   = YZ
+            Distance in X       =   0.000000
+         Datum Plane Idd        = 8
+            Reference subgraph  = 0
+            Reference origin    = 0
+            Plane orientation   = XY
+            Distance in Z       = -69.896085
+      End Datum Planes
+   END DATUMS 
+   TREE 
+      Branches =1
+         Branch 0
+            Feature 0
+               CORE: 
+               Extrusion both sides       = YES
+               Subgraph                   = 0
+               Branch                     = 0
+               Merit                      = 0.76914
+               Profile orientation        = XY
+               Profile vertices           = 4
+               {
+                  V0 [-27.441939,  0.000000]
+                  V1 [-454.214783,  0.000000]
+                  V2 [-450.233062,354.672227]
+                  V3 [-27.441939,379.146802]
+               }
+               Extrusion direction        = Z
+               Linear_extrusion length    =133.198523
+               Datums referencing feature =1
+                  Datum 0= 8
+            Feature 1
+               POCKET: 
+               Extrusion both sides       = NO
+               Subgraph                   = 1
+               Branch                     = 0
+               Merit                      = 0.96
+               Profile orientation        = XY
+               Profile vertices           = 4
+               {
+                  V0 [-326.169277,111.432082]
+                  V1 [-330.198534,254.374438]
+                  V2 [-134.885519,250.963939]
+                  V3 [-134.885519,111.432082]
+               }
+               Extrusion direction        = Z
+               Linear_extrusion length    = 51.435088
+               Datums referencing feature =3
+                  Datum 0= 5
+                  Datum 1= 6
+                  Datum 2= 7
+         End Branch 0
+      End Branches
+   END TREE 
+End CSG model by REFER

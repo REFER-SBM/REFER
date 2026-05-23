@@ -1,0 +1,39 @@
+Comment from Yankee
+Vertex 0: 0.000000,17.149663 D:0 
+Vertex 1: 0.000000,398.253275 D:0 
+Vertex 2: 366.812227,703.136165 D:1 
+Vertex 3: 146.724891,139.102819 D:2 
+Vertex 4: 242.000794,130.527987 D:4 
+Vertex 5: 682.175466,496.387455 D:5 
+Vertex 6: 777.451370,487.812624 D:6 
+Vertex 7: 190.551806,0.000000 D:7 
+Vertex 8: 777.451370,583.088527 D:9 
+Vertex 9: 872.727273,574.513696 D:10 
+Vertex 10: 872.727273,669.789599 D:11 
+Vertex 11: 682.175466,686.939262 D:12 
+Vertex 12: 652.639936,677.411671 D:14 
+Vertex 13: 462.088130,504.009528 D:15 
+Vertex 14: 462.088130,694.561334 D:16  Intercept 14
+Vertex 15: 652.639936,662.390250 D:18  Intercept 15
+Vertex 16: 777.451370,495.323335 D:19  Intercept 9
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V0
+Line 4: V3 to V4
+Line 5: V4 to V5
+Line 6: V5 to V6
+Line 7: V6 to V7
+Line 8: V7 to V0
+Line 9: V6 to V8
+Line 10: V8 to V9
+Line 11: V9 to V10
+Line 12: V10 to V11
+Line 13: V11 to V5
+Line 14: V2 to V12
+Line 15: V11 to V13
+Line 16: V13 to V14
+Line 17: V4 to V14
+Line 18: V12 to V15
+Line 19: V9 to V16
+End

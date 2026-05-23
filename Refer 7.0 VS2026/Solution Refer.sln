@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11716.220
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Refer", "Refer.vcxproj", "{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Refer Installer", "..\Refer Installer\Refer Installer.vdproj", "{C9E51B00-7BD9-9D60-C66D-13712C1077B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}.Debug|Win32.Build.0 = Debug|Win32
+		{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}.Debug|x64.ActiveCfg = Debug|x64
+		{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}.Debug|x64.Build.0 = Debug|x64
+		{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}.Release|Win32.ActiveCfg = Release|Win32
+		{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}.Release|Win32.Build.0 = Release|Win32
+		{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}.Release|x64.ActiveCfg = Release|x64
+		{474F9A2E-9C9A-4CBF-82AC-C74149AEB00F}.Release|x64.Build.0 = Release|x64
+		{C9E51B00-7BD9-9D60-C66D-13712C1077B6}.Debug|Win32.ActiveCfg = Debug
+		{C9E51B00-7BD9-9D60-C66D-13712C1077B6}.Debug|x64.ActiveCfg = Debug
+		{C9E51B00-7BD9-9D60-C66D-13712C1077B6}.Release|Win32.ActiveCfg = Release
+		{C9E51B00-7BD9-9D60-C66D-13712C1077B6}.Release|x64.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D89AD72-0A60-47AA-9068-79BA6551BC03}
+	EndGlobalSection
+EndGlobal

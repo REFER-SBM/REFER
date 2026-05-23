@@ -1,0 +1,27 @@
+Comment Axis-Aligned Mirror Plane, from Yankee p 179 sketch F
+Vertex 0: 386.729858,0.000000 D:0 
+Vertex 1: 580.094786,234.312797 D:0 
+Vertex 2: 386.729858,345.781991 D:1 
+Vertex 3: 0.000000,222.938389 D:2 
+Vertex 4: 714.312797,768.909953 D:4 
+Vertex 5: 605.118484,832.606636 D:5 
+Vertex 6: 605.118484,960.000000 D:7 
+Vertex 7: 714.312797,896.303317 D:8 
+Vertex 8: 247.962085,843.981043 D:10 
+Vertex 9: 247.962085,621.042654 D:11 
+Vertex 10: 0.000000,541.421801 D:12 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V0
+Line 4: V1 to V4
+Line 5: V4 to V5
+Line 6: V5 to V2
+Line 7: V5 to V6
+Line 8: V6 to V7
+Line 9: V7 to V4
+Line 10: V6 to V8
+Line 11: V8 to V9
+Line 12: V9 to V10
+Line 13: V10 to V3
+End

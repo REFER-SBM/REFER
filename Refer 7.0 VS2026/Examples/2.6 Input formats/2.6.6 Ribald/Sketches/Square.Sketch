@@ -1,0 +1,9 @@
+Vertex 0: 100.000000,100.000000 D:0 
+Vertex 1: 100.000000,300.000000 D:0 
+Vertex 2: 300.000000,300.000000 D:1 
+Vertex 3: 300.000000,100.000000 D:2 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V0 to V3
+End

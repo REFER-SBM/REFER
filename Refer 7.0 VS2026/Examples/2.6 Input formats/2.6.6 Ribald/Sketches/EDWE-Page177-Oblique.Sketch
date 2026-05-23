@@ -1,0 +1,58 @@
+Comment Pickup and Parker p60
+Vertex 0: 0.000000,202.149288 D:0 
+Vertex 1: 0.000000,508.858554 D:0 
+Vertex 2: 48.794656,508.858554 D:1 
+Vertex 3: 48.794656,578.565205 D:2 
+Vertex 4: 230.031949,578.565205 D:3 
+Vertex 5: 230.031949,508.858554 D:4 
+Vertex 6: 278.826605,508.858554 D:5 
+Vertex 7: 278.826605,202.149288 D:6 
+Vertex 8: 387.568981,139.413302 D:8 
+Vertex 9: 108.742376,139.413302 D:9 
+Vertex 10: 387.568981,209.119954 D:11 
+Vertex 11: 544.408946,118.501307 D:12 
+Vertex 12: 544.408946,48.794656 D:13 
+Vertex 13: 628.753994,0.000000 D:14 
+Vertex 14: 349.927389,0.000000 D:15 
+Vertex 15: 265.582341,48.794656 D:16 
+Vertex 16: 265.582341,118.501307 D:18 
+Vertex 17: 229.334882,139.413302 D:20  Intercept 9
+Vertex 18: 628.753994,237.002614 D:21 
+Vertex 19: 278.826605,439.151902 D:22  Intercept 6
+Vertex 20: 872.727273,237.002614 D:23 
+Vertex 21: 872.727273,306.709265 D:24 
+Vertex 22: 644.786523,438.454836 D:25 
+Vertex 23: 644.786523,368.748185 D:26 
+Vertex 24: 386.892498,488.068734 D:30  Intercept 29
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V4
+Line 4: V4 to V5
+Line 5: V5 to V6
+Line 6: V6 to V7
+Line 7: V7 to V0
+Line 8: V7 to V8
+Line 9: V8 to V9
+Line 10: V9 to V0
+Line 11: V8 to V10
+Line 12: V10 to V11
+Line 13: V11 to V12
+Line 14: V12 to V13
+Line 15: V13 to V14
+Line 16: V14 to V15
+Line 17: V15 to V12
+Line 18: V15 to V16
+Line 19: V11 to V16
+Line 20: V16 to V17
+Line 21: V13 to V18
+Line 22: V18 to V19
+Line 23: V18 to V20
+Line 24: V20 to V21
+Line 25: V21 to V22
+Line 26: V22 to V23
+Line 27: V23 to V20
+Line 28: V23 to V19
+Line 29: V22 to V6
+Line 30: V4 to V24
+End

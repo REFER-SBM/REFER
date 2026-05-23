@@ -1,0 +1,16 @@
+Vertex 0:      761.927898,    -404.159616 D:   0
+Vertex 1:      566.083103,    -283.064743 D:   1
+Vertex 2:      600.528129,    -616.370423 D:   0
+Vertex 3:      336.020972,    -456.754035 D:   2
+Vertex 4:      779.500000,    -547.674243 D:   4
+Vertex 5:      779.500000,    -453.750000 D:   5
+Vertex 6:      452.431947,    -592.137338 D:   6
+Vertex 7:      450.746155,    -549.993103 D:   7
+Line 0: V2 to V0
+Line 1: V0 to V1
+Line 2: V3 to V1
+Line 3: V2 to V3
+Line 4: V2 to V4
+Line 5: V4 to V5
+Line 6: V2 to V6
+Line 7: V6 to V7

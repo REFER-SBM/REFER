@@ -1,0 +1,33 @@
+Comment from Yankee, p153
+Vertex 0: 97.659329,54.843000 D:0 
+Vertex 1: 345.094990,195.843227 D:0 
+Vertex 2: 443.027432,140.180885 D:1 
+Vertex 3: 197.503571,0.000000 D:2 
+Vertex 4: 97.386216,439.822795 D:4 
+Vertex 5: 345.641216,581.369250 D:5 
+Vertex 6: 441.388748,525.706910 D:7 
+Vertex 7: 776.601787,713.420726 D:9 
+Vertex 8: 582.921814,828.569005 D:10 
+Vertex 9: 583.194824,960.000000 D:11 
+Vertex 10: 776.328673,848.129089 D:12 
+Vertex 11: 0.273114,491.388428 D:14 
+Vertex 12: 0.000000,625.823677 D:16 
+Line 0: V0 to V1
+Line 1: V1 to V2
+Line 2: V2 to V3
+Line 3: V3 to V0
+Line 4: V0 to V4
+Line 5: V4 to V5
+Line 6: V5 to V1
+Line 7: V5 to V6
+Line 8: V6 to V2
+Line 9: V6 to V7
+Line 10: V7 to V8
+Line 11: V8 to V9
+Line 12: V9 to V10
+Line 13: V10 to V7
+Line 14: V8 to V11
+Line 15: V11 to V4
+Line 16: V11 to V12
+Line 17: V12 to V9
+End

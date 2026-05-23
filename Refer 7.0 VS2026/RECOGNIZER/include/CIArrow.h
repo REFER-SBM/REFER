@@ -1,0 +1,53 @@
+/*--------------------------------------------------------- -*- Mode: C++ -*- +
+| Module: CIArrow.h
++-----------------------------------------------------------------------------+
+| Description: Represents an arrow. (solid, dashed or bold)
+| 
+| Notes:       
+|
+| Author: Manuel Joao Fonseca
+|	  e-mail: mjf@ist.utl.pt
+|
+| Date: April 98, May 99
++----------------------------------------------------------------------------
+|
+| Copyright (C) 1998, 1999, 2000 Manuel João da Fonseca
+|
+| This program is free software; you can redistribute it and/or
+| modify it under the terms of the GNU General Public License
+| as published by the Free Software Foundation; either version 2
+| of the License, or any later version.
+| 
+| This program is distributed in the hope that it will be useful,
+| but WITHOUT ANY WARRANTY; without even the implied warranty of
+| MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+| GNU General Public License for more details.
+| 
+| You should have received a copy of the GNU General Public License
+| along with this program; if not, write to the Free Software
+| Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+| 
++----------------------------------------------------------------------------*/
+#ifndef _CIARROW_H
+#define _CIARROW_H
+
+#include "CIScribble.h"
+#include "CIShape.h"
+
+class CIArrow : public CIShape {
+
+public: 
+    CIArrow(bool rotated=true);
+    CIArrow (CIScribble* sc, CIPoint a, CIPoint b, double dom, bool dash=false, bool bold = false);
+
+    void setUp(CIScribble* sc);
+    CIGesture* clone();
+    char* getName() { return ("Arrow"); }
+
+    double evalGlobalFeatures(CIScribble* sc);
+    double evalLocalFeatures(CIScribble *sc, CIList<CIGesture *>* _shapesList);
+
+    CIPoint _points[2];
+};
+
+#endif

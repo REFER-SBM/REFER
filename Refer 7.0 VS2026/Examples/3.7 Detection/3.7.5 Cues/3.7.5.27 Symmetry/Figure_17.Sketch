@@ -1,0 +1,22 @@
+Vertex 0:     -156.240602,      71.205263 D:   0
+Vertex 1:      -64.745827,     101.130401 D:   1
+Vertex 2:       20.598244,      28.994341 D:   2
+Vertex 3:     -152.571327,     -10.341022 D:   0
+Vertex 4:      -36.349332,     -42.681056 D:   3
+Vertex 5:      -79.044404,    -159.354047 D:   5
+Line 0: V3 to V0
+Line 1: V0 to V1
+Line 2: V1 to V2
+Line 3: V3 to V4
+Line 4: V4 to V2
+Line 5: V0 to V5
+Line 6: V5 to V4
+Line 7: V5 to V1
+Line 8: V3 to V5
+Line 9: V5 to V2
+Face 0: 3 L8 L0 L5
+Face 1: 3 L7 L5 L1
+Face 2: 5 L4 L2 L1 L0 L3
+Face 3: 3 L9 L7 L2
+Face 4: 3 L3 L8 L6
+Face 5: 3 L6 L9 L4
